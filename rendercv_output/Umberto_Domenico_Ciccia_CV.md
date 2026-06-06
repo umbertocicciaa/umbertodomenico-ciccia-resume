@@ -54,7 +54,7 @@ Cosenza, Italy Mar 2024 – July 2024
 
 
 # Projects
-## **AWS MlOps [github.com/umbertocicciaa/aws-mlops](https://github.com/umbertocicciaa/aws-mlops)**
+## **AWS MlOps**
 
 - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
 
@@ -62,15 +62,15 @@ Cosenza, Italy Mar 2024 – July 2024
 
 
 
-## **Italian Db [github.com/umbertocicciaa/italian-db](https://github.com/umbertocicciaa/italian-db)**
+## **Italian Db**
 
 - Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design.
 
 
 
-## **Raspberry Pi 4 Kubernetes Cluster [github.com/umbertocicciaa/homelab-utils](https://github.com/umbertocicciaa/homelab-utils)**
+## **Raspberry Pi 4 Kubernetes Cluster**
 
-- Designed and deployed a 2-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
+- Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
 
 - Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
 
@@ -83,7 +83,9 @@ Cosenza, Italy Mar 2024 – July 2024
 
 **Cloud & DevOps:** AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD
 
-**Backend & Frontend:** .NET, Spring Boot, Quarkus, Django, React, Angular, Blazor
+**Frontend:** React, Angular, Blazor
+
+**Backend:** .NET, Spring Boot, Quarkus, Django
 
 **Databases:** PostgreSQL, SQLServer, MongoDB, Redis
 
@@ -100,7 +102,7 @@ Cosenza, Italy Mar 2024 – July 2024
 
 
 
-# Extra Activities and Personal Achievements
+# Extra
 - Won the AWS Jam for NTT Data.
 
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts.

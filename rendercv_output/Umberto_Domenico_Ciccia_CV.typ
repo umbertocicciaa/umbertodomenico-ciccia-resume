@@ -9,11 +9,11 @@
   top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
-  page-size: "us-letter",
-  page-top-margin: 0.6in,
-  page-bottom-margin: 0.6in,
-  page-left-margin: 0.65in,
-  page-right-margin: 0.65in,
+  page-size: "a4",
+  page-top-margin: 0.5in,
+  page-bottom-margin: 0.5in,
+  page-left-margin: 0.5in,
+  page-right-margin: 0.5in,
   page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -32,10 +32,10 @@
   typography-font-family-headline: "Source Sans 3",
   typography-font-family-connections: "Source Sans 3",
   typography-font-family-section-titles: "Source Sans 3",
-  typography-font-size-body: 9.8pt,
-  typography-font-size-name: 26pt,
+  typography-font-size-body: 9.5pt,
+  typography-font-size-name: 24pt,
   typography-font-size-headline: 10pt,
-  typography-font-size-connections: 9.8pt,
+  typography-font-size-connections: 9.5pt,
   typography-font-size-section-titles: 1.2em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
@@ -49,7 +49,7 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.4cm,
+  header-space-below-name: 0.5cm,
   header-space-below-headline: 0.7cm,
   header-space-below-connections: 0.5cm,
   header-connections-hyperlink: true,
@@ -63,7 +63,7 @@
   section-titles-space-below: 0.18cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.18em,
-  sections-space-between-regular-entries: 0.85em,
+  sections-space-between-regular-entries: 0.5em,
   entries-date-and-location-width: 0cm,
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
@@ -76,12 +76,12 @@
   entries-highlights-nested-bullet:  "•" ,
   entries-highlights-space-left: 0.15cm,
   entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
+  entries-highlights-space-between-items: 0em,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
     month: 6,
-    day: 6,
+    day: 7,
   ),
 )
 
@@ -169,7 +169,7 @@
 
 #regular-entry(
   [
-    #strong[AWS MlOps #link("https://github.com/umbertocicciaa/aws-mlops")[github.com\/umbertocicciaa\/aws-mlops]]
+    #strong[AWS MlOps]
 
     - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
 
@@ -182,7 +182,7 @@
 
 #regular-entry(
   [
-    #strong[Italian Db #link("https://github.com/umbertocicciaa/italian-db")[github.com\/umbertocicciaa\/italian-db]]
+    #strong[Italian Db]
 
     - Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design.
 
@@ -193,9 +193,9 @@
 
 #regular-entry(
   [
-    #strong[Raspberry Pi 4 Kubernetes Cluster #link("https://github.com/umbertocicciaa/homelab-utils")[github.com\/umbertocicciaa\/homelab-utils]]
+    #strong[Raspberry Pi 4 Kubernetes Cluster]
 
-    - Designed and deployed a 2-node K3s cluster with CI\/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
+    - Designed and deployed a 3-node K3s cluster with CI\/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
 
     - Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
 
@@ -212,7 +212,9 @@
 
 #strong[Cloud & DevOps:] AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI\/CD
 
-#strong[Backend & Frontend:] .NET, Spring Boot, Quarkus, Django, React, Angular, Blazor
+#strong[Frontend:] React, Angular, Blazor
+
+#strong[Backend:] .NET, Spring Boot, Quarkus, Django
 
 #strong[Databases:] PostgreSQL, SQLServer, MongoDB, Redis
 
@@ -242,7 +244,7 @@
   ],
 )
 
-== Extra Activities and Personal Achievements
+== Extra
 
 - Won the AWS Jam for NTT Data.
 

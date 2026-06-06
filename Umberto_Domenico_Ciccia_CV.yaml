@@ -67,21 +67,21 @@ cv:
             performance by 60%.
 
     projects:
-      - name: "AWS MlOps [github.com/umbertocicciaa/aws-mlops](https://github.com/umbertocicciaa/aws-mlops)"
+      - name: "AWS MlOps"
         highlights:
           - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation,
             and real-time inference.
           - Automated model promotion and deployment using Lambda and performance thresholds.
 
-      - name: "Italian Db [github.com/umbertocicciaa/italian-db](https://github.com/umbertocicciaa/italian-db)"
+      - name: "Italian Db"
         highlights:
           - Designed and implemented an educational DBMS from scratch to explore core
             database internals, including query execution, storage management, and data
             structure design.
 
-      - name: "Raspberry Pi 4 Kubernetes Cluster [github.com/umbertocicciaa/homelab-utils](https://github.com/umbertocicciaa/homelab-utils)"
+      - name: "Raspberry Pi 4 Kubernetes Cluster"
         highlights:
-          - Designed and deployed a 2-node K3s cluster with CI/CD, ingress (Traefik), and
+          - Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and
             observability stack (Prometheus, Grafana).
           - Implemented secure networking (DNS, SSH, static IPs) and production-style
             workload deployment.
@@ -94,8 +94,10 @@ cv:
         details: Python, C#, Java, Bash, TypeScript, C, GO
       - label: Cloud & DevOps
         details: AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD
-      - label: Backend & Frontend
-        details: .NET, Spring Boot, Quarkus, Django, React, Angular, Blazor
+      - label: Frontend
+        details: React, Angular, Blazor
+      - label: Backend
+        details: .NET, Spring Boot, Quarkus, Django
       - label: Databases
         details: PostgreSQL, SQLServer, MongoDB, Redis
 
@@ -107,7 +109,7 @@ cv:
         area: Computer Engineering
         degree: B.Sc.
 
-    extra_activities_and_personal_achievements:
+    extra:
       - bullet: Won the AWS Jam for NTT Data.
       - bullet: Participated in the MLSysOps Hackathon, designing Kubernetes-based policies
           for reliable ML deployments with Prometheus/Grafana observability, autoscaling,
@@ -122,23 +124,23 @@ design:
   theme: classic
 
   page:
-    size: us-letter
-    top_margin: 0.6in
-    bottom_margin: 0.6in
-    left_margin: 0.65in
-    right_margin: 0.65in
+    size: a4
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
     show_footer: false
 
   typography:
     font_size:
-      body: 9.8pt
-      name: 26pt
-      connections: 9.8pt
+      body: 9.5pt
+      name: 24pt
+      connections: 9.5pt
       section_titles: 1.2em
     line_spacing: 0.58em
 
   header:
-    space_below_name: 0.4cm
+    space_below_name: 0.5cm
     space_below_connections: 0.5cm
 
   section_titles:
@@ -146,7 +148,7 @@ design:
     space_below: 0.18cm
 
   sections:
-    space_between_regular_entries: 0.85em
+    space_between_regular_entries: 0.5em
     space_between_text_based_entries: 0.18em
     show_time_spans_in: []
 
@@ -154,7 +156,7 @@ design:
     date_and_location_width: 0cm
     highlights:
       space_above: 0cm
-      space_between_items: 0cm
+      space_between_items: 0em
     summary:
       space_above: 0cm
 

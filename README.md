@@ -25,3 +25,7 @@ Edit the YAML, then render:
 ```python
 rendercv render "John_Doe_CV.yaml"
 ```
+
+## Demo
+
+![CV](rendercv_output/Umberto_Domenico_Ciccia_CV_1.png)
