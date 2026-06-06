@@ -109,4 +109,4 @@ Cosenza, Italy Mar 2024 – July 2024
 
 - Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20%.
 
-- Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing ([unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)).
+- Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale).
