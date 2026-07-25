@@ -7,9 +7,13 @@
 
 
 # Experience
-## **Amazon Web Services (AWS)**, System Dev Engineer
+## **Amazon Web Services (AWS)**, Systems Development Engineer (SysDev)
 
 Dublin, Ireland Nov 2025 – present
+
+- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in `eusc-de-east-1`
+
+- Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
 
 - Unblocked a strategic customer launch by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
@@ -19,7 +23,7 @@ Dublin, Ireland Nov 2025 – present
 
 
 
-## **NTT Data Italia S.p.A.**, Cloud Engineer
+## **NTT Data**, Cloud Engineer
 
 Cosenza, Italy Jan 2025 – Oct 2025
 
@@ -31,7 +35,7 @@ Cosenza, Italy Jan 2025 – Oct 2025
 
 
 
-## **Vision One S.r.l.**, Software Engineer
+## **Vision One**, Software Engineer
 
 Recanati, Italy July 2024 – Dec 2024
 
@@ -50,29 +54,6 @@ Cosenza, Italy Mar 2024 – July 2024
 - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
 
 - Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%.
-
-
-
-# Projects
-## **AWS MlOps**
-
-- Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
-
-- Automated model promotion and deployment using Lambda and performance thresholds.
-
-
-
-## **Italian Db**
-
-- Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design.
-
-
-
-## **Raspberry Pi 4 Kubernetes Cluster**
-
-- Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
-
-- Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
 
 
 
