@@ -156,13 +156,41 @@
 
 #regular-entry(
   [
-    #strong[Caliò Informatica S.r.l.], Software Engineer
+    #strong[Caliò Informatica], Software Engineer
 
     Cosenza, Italy Mar 2024 – July 2024
 
     - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
 
     - Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80\% while improving response performance by 60\%.
+
+  ],
+  [
+  ],
+)
+
+== Projects
+
+#regular-entry(
+  [
+    #strong[AWS MlOps]
+
+    - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
+
+    - Automated model promotion and deployment using Lambda and performance thresholds.
+
+  ],
+  [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Raspberry Pi 4 Kubernetes Cluster]
+
+    - Designed and deployed a 3-node K3s cluster with CI\/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
+
+    - Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
 
   ],
   [
@@ -216,5 +244,7 @@
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus\/Grafana observability, autoscaling, and automated rollouts.
 
 - Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20\%.
+
+- Open Source Contributions: #link("https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md")[umbertocicciaa\/Contributions.md]
 
 - Maintainer of Unical\<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing #link("https://unicallovetelegram.github.io/IndiceArgomentiOrale")[unicallovetelegram.github.io\/IndiceArgomentiOrale].

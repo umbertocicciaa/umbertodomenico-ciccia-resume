@@ -68,12 +68,12 @@ cv:
             strategies, reducing operational costs by 80% while improving response
             performance by 60%.
 
-#    projects:
-#      - name: "AWS MlOps"
-#        highlights:
-#          - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation,
-#            and real-time inference.
-#          - Automated model promotion and deployment using Lambda and performance thresholds.
+    projects:
+      - name: "AWS MlOps"
+        highlights:
+          - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation,
+            and real-time inference.
+          - Automated model promotion and deployment using Lambda and performance thresholds.
 
 #      - name: "Italian Db"
 #        highlights:
@@ -81,12 +81,12 @@ cv:
 #            database internals, including query execution, storage management, and data
 #            structure design.
 
-#      - name: "Raspberry Pi 4 Kubernetes Cluster"
-#        highlights:
-#          - Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and
-#            observability stack (Prometheus, Grafana).
-#          - Implemented secure networking (DNS, SSH, static IPs) and production-style
-#            workload deployment.
+      - name: "Raspberry Pi 4 Kubernetes Cluster"
+        highlights:
+          - Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and
+            observability stack (Prometheus, Grafana).
+          - Implemented secure networking (DNS, SSH, static IPs) and production-style
+            workload deployment.
 
     skills:
       - label: Certifications
