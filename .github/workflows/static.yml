@@ -3,9 +3,6 @@ name: Deploy CV to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - Umberto_Domenico_Ciccia_CV.yaml
-      - rendercv_output/**
 
 permissions:
   contents: write
