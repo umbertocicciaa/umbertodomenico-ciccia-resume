@@ -93,9 +93,9 @@ cv:
         details: AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA),
           Google Associate Cloud Engineer, Terraform Associate
       - label: Languages
-        details: Python, C#, Java, Bash, TypeScript, C, GO
+        details: Python, C#, Java, Ruby, Bash, TypeScript, JavaScript, C
       - label: Cloud & DevOps
-        details: AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD
+        details: AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible
       - label: Frontend
         details: React, Angular, Blazor
       - label: Backend

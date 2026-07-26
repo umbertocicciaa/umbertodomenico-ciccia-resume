@@ -201,9 +201,9 @@
 
 #strong[Certifications:] AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-#strong[Languages:] Python, C\#, Java, Bash, TypeScript, C, GO
+#strong[Languages:] Python, C\#, Java, Ruby, Bash, TypeScript, JavaScript, C
 
-#strong[Cloud & DevOps:] AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI\/CD
+#strong[Cloud & DevOps:] AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI\/CD, Prometheus, Grafana, Ansible
 
 #strong[Frontend:] React, Angular, Blazor
 
