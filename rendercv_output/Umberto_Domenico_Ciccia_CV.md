@@ -15,11 +15,11 @@ Dublin, Ireland Nov 2025 – present
 
 - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
 
-- Unblocked a strategic customer launch by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
+- Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
-- Maintained reliability of Route 53 services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
+- Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
 
-- Supported infrastructure deployment for AWS European Sovereign Cloud, enabling compliant in-region operations.
+- Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations.
 
 
 
