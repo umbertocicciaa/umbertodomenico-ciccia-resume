@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 7,
-    day: 25,
+    day: 26,
   ),
 )
 
@@ -105,7 +105,7 @@
 
     Dublin, Ireland Nov 2025 – present
 
-    - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98\% in `eusc-de-east-1`
+    - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98\% in eusc-de-east-1
 
     - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
 

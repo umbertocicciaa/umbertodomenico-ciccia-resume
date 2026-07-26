@@ -20,7 +20,7 @@ cv:
         start_date: 2025-11
         end_date: present
         highlights:
-          - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in `eusc-de-east-1`
+          - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1
           - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
           - Unblocked a strategic customer launch by delivering DNSSEC support for Route 53
             in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer
