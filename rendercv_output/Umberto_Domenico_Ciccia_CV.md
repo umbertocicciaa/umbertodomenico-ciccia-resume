@@ -11,6 +11,8 @@
 
 Dublin, Ireland Nov 2025 – present
 
+- Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
+
 - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1
 
 - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
@@ -18,8 +20,6 @@ Dublin, Ireland Nov 2025 – present
 - Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
 - Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
-
-- Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations.
 
 
 
@@ -88,7 +88,7 @@ Cosenza, Italy Mar 2024 – July 2024
 **Databases:** PostgreSQL, SQLServer, MongoDB, Redis
 
 # Education
-## **Università della Calabria**, Cyber Security Engineering
+## **Università della Calabria**, Artificial Intelligence and Machine Learning
 
 **M.Sc.**
 
@@ -106,7 +106,3 @@ Cosenza, Italy Mar 2024 – July 2024
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts.
 
 - Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20%.
-
-- Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)
-
-- Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale).

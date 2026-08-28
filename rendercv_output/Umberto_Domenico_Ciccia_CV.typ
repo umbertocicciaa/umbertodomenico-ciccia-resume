@@ -6,7 +6,7 @@
   name: "Umberto Domenico Ciccia",
   title: "Umberto Domenico Ciccia - CV",
   footer: context { [#emph[Umberto Domenico Ciccia -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in July 2026] ],
+  top-note: [ #emph[Last updated in Aug 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 7,
-    day: 26,
+    month: 8,
+    day: 28,
   ),
 )
 
@@ -105,6 +105,8 @@
 
     Dublin, Ireland Nov 2025 – present
 
+    - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
+
     - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98\% in eusc-de-east-1
 
     - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
@@ -112,8 +114,6 @@
     - Unblocked a strategic customer launch by delivering #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html")[DNSSEC] support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
     - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53] services in sovereign regions, achieving 99.999\% availability through incident response and RCA-driven improvements.
-
-    - Supported infrastructure deployment for #link("https://aws.eu/")[AWS European Sovereign Cloud], enabling compliant in-region operations.
 
   ],
   [
@@ -215,7 +215,7 @@
 
 #education-entry(
   [
-    #strong[Università della Calabria], Cyber Security Engineering
+    #strong[Università della Calabria], Artificial Intelligence and Machine Learning
 
   ],
   [
@@ -244,7 +244,3 @@
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus\/Grafana observability, autoscaling, and automated rollouts.
 
 - Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20\%.
-
-- Open Source Contributions: #link("https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md")[umbertocicciaa\/Contributions.md]
-
-- Maintainer of Unical\<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing #link("https://unicallovetelegram.github.io/IndiceArgomentiOrale")[unicallovetelegram.github.io\/IndiceArgomentiOrale].
