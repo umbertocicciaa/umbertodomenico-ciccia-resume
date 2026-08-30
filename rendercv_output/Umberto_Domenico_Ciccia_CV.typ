@@ -105,7 +105,7 @@
 
     Dublin, Ireland Nov 2025 – present
 
-    - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
+    - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
 
     - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98\% in eusc-de-east-1
 

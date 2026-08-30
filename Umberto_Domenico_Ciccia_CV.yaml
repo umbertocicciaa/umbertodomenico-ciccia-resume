@@ -20,7 +20,7 @@ cv:
         start_date: 2025-11
         end_date: present
         highlights:
-          - Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
+          - Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
           - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1
           - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
           - Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
