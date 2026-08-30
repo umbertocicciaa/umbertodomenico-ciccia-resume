@@ -14,91 +14,93 @@ cv:
 
   sections:
     experience:
-      - company: Amazon Web Services (AWS)
-        position: Systems Development Engineer (SysDev)
-        location: Dublin, Ireland
-        start_date: 2025-11
-        end_date: present
+      - company: "Amazon Web Services (AWS)"
+        position: "Systems Development Engineer"
+        location: "Dublin, Ireland"
+        start_date: "2025-11"
+        end_date: "present"
         highlights:
-          - Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
-          - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1
-          - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
-          - Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
-          - Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
-#         - Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations.
+          - "Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
+          - "Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1."
+          - "Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions."
+          - "Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure."
+          - "Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements."
+#         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
 
-      - company: NTT Data
-        position: Cloud Engineer
-        location: Cosenza, Italy
-        start_date: 2025-01
-        end_date: 2025-10
+      - company: "NTT Data"
+        position: "Cloud Engineer"
+        location: "Cosenza, Italy"
+        start_date: "2025-01"
+        end_date: "2025-10"
         highlights:
-          - Built CI/CD pipelines on GCP to deploy Dataflow pipelines processing 10k+ daily records, improving data availability and release reliability.
-          - Designed multi-cloud infrastructure (AWS + on-prem) using Terraform and Kubernetes, improving deployment consistency and reducing failure rates by 70%.
-          - Developed microservices (Quarkus, Crossplane) to automate infrastructure policy management and optimize cloud resource allocation.
+          - "Built CI/CD pipelines on GCP to deploy Dataflow pipelines processing 10k+ daily records, improving data availability and release reliability."
+          - "Designed multi-cloud infrastructure (AWS + on-prem) using Terraform and Kubernetes, improving deployment consistency and reducing failure rates by 70%."
+          - "Developed microservices (Quarkus, Crossplane) to automate infrastructure policy management and optimize cloud resource allocation."
 
-      - company: Vision One
-        position: Software Engineer
-        location: Recanati, Italy
-        start_date: 2024-07
-        end_date: 2024-12
+      - company: "Vision One"
+        position: "Software Engineer"
+        location: "Recanati, Italy"
+        start_date: "2024-07"
+        end_date: "2024-12"
         highlights:
-          - Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%.
-          - Refactored legacy codebase, reducing unused code by 60% and improving maintainability.
-          - Introduced automated testing (xUnit), increasing test coverage to 80%.
+          - "Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%."
+          - "Refactored legacy codebase, reducing unused code by 60% and improving maintainability."
+          - "Introduced automated testing (xUnit), increasing test coverage to 80%."
 
-      - company: Caliò Informatica
-        position: Software Engineer
-        location: Cosenza, Italy
-        start_date: 2024-03
-        end_date: 2024-07
+      - company: "Caliò Informatica"
+        position: "Software Engineer"
+        location: "Cosenza, Italy"
+        start_date: "2024-03"
+        end_date: "2024-07"
         highlights:
-          - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
-          - Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%.
+          - "Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n."
+          - "Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%."
 
     projects:
       - name: "AWS MlOps"
         highlights:
-          - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
-          - Automated model promotion and deployment using Lambda and performance thresholds.
+          - "Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference."
+          - "Automated model promotion and deployment using Lambda and performance thresholds."
 
 #      - name: "Italian Db"
 #        highlights:
-#          - Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design.
+#          - "Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design."
 
       - name: "Raspberry Pi 4 Kubernetes Cluster"
         highlights:
-          - Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
-          - Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
+          - "Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana)."
+          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
 
     skills:
-      - label: Certifications
-        details: AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
-      - label: Languages
-        details: Java, C#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript
-      - label: Cloud & DevOps
-        details: AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible
-      - label: Frontend
-        details: React, Angular, Blazor
-      - label: Backend
-        details: .NET, Spring Boot, Quarkus, Django
-      - label: Databases
-        details: PostgreSQL, SQLServer, MongoDB, Redis
+      - label: "Certifications"
+        details: "AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate"
+      - label: "Languages"
+        details: "Java, C#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript"
+      - label: "Cloud & DevOps"
+        details: "AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible"
+      - label: "Frontend"
+        details: "React, Angular, Blazor"
+      - label: "Backend"
+        details: ".NET, Spring Boot, Quarkus, Django"
+      - label: "Databases"
+        details: "PostgreSQL, SQLServer, MongoDB, Redis"
 
     education:
-      - institution: Università della Calabria
-        area: Artificial Intelligence and Machine Learning
-        degree: M.Sc.
-      - institution: Università della Calabria
-        area: Computer Engineering
-        degree: B.Sc.
+      - institution: "Università della Calabria"
+        area: "Artificial Intelligence and Machine Learning"
+        degree: "M.Sc."
+        gpa: "GPA: 4.0/4.0"
+      - institution: "Università della Calabria"
+        area: "Computer Engineering"
+        degree: "B.Sc."
+        gpa: "GPA: 4.0/4.0"
 
     extra:
-      - bullet: Won the AWS Jam for NTT Data.
-      - bullet: Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts.
-      - bullet: Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20%.
+      - bullet: "Won the AWS Jam for NTT Data."
+      - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
+      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
 #      - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
-#      - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
+      - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
 
 design:
   theme: classic
@@ -143,22 +145,22 @@ design:
   templates:
     experience_entry:
       main_column: |-
-        **COMPANY**, POSITION
-        LOCATION DATE
+        **COMPANY** **POSITION**
+        LOCATION, DATE,
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""
     normal_entry:
       main_column: |-
         **NAME**
-        LOCATION DATE
+        LOCATION, DATE,
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""
     education_entry:
       main_column: |-
-        **INSTITUTION**, AREA
-        LOCATION DATE
+        **INSTITUTION**, AREA, **GPA**
+        LOCATION, DATE,
         SUMMARY
         HIGHLIGHTS
       degree_column: "**DEGREE**"

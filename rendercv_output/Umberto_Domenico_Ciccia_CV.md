@@ -7,15 +7,15 @@
 
 
 # Experience
-## **Amazon Web Services (AWS)**, Systems Development Engineer (SysDev)
+## **Amazon Web Services (AWS)** **Systems Development Engineer**
 
-Dublin, Ireland Nov 2025 – present
+Dublin, Ireland, Nov 2025 – present
 
-- Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing
+- Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
-- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1
+- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98% in eusc-de-east-1.
 
-- Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions
+- Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions.
 
 - Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
@@ -23,9 +23,9 @@ Dublin, Ireland Nov 2025 – present
 
 
 
-## **NTT Data**, Cloud Engineer
+## **NTT Data** **Cloud Engineer**
 
-Cosenza, Italy Jan 2025 – Oct 2025
+Cosenza, Italy, Jan 2025 – Oct 2025
 
 - Built CI/CD pipelines on GCP to deploy Dataflow pipelines processing 10k+ daily records, improving data availability and release reliability.
 
@@ -35,9 +35,9 @@ Cosenza, Italy Jan 2025 – Oct 2025
 
 
 
-## **Vision One**, Software Engineer
+## **Vision One** **Software Engineer**
 
-Recanati, Italy July 2024 – Dec 2024
+Recanati, Italy, July 2024 – Dec 2024
 
 - Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%.
 
@@ -47,9 +47,9 @@ Recanati, Italy July 2024 – Dec 2024
 
 
 
-## **Caliò Informatica**, Software Engineer
+## **Caliò Informatica** **Software Engineer**
 
-Cosenza, Italy Mar 2024 – July 2024
+Cosenza, Italy, Mar 2024 – July 2024
 
 - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
 
@@ -88,13 +88,13 @@ Cosenza, Italy Mar 2024 – July 2024
 **Databases:** PostgreSQL, SQLServer, MongoDB, Redis
 
 # Education
-## **Università della Calabria**, Artificial Intelligence and Machine Learning
+## **Università della Calabria**, Artificial Intelligence and Machine Learning, **GPA: 4.0/4.0**
 
 **M.Sc.**
 
 
 
-## **Università della Calabria**, Computer Engineering
+## **Università della Calabria**, Computer Engineering, **GPA: 4.0/4.0**
 
 **B.Sc.**
 
@@ -105,4 +105,6 @@ Cosenza, Italy Mar 2024 – July 2024
 
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts.
 
-- Lead The Future Mentee, a highly selective STEM mentorship program with an acceptance rate below 20%.
+- [Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%.
+
+- Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale).
