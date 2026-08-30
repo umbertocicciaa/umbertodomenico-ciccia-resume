@@ -77,7 +77,7 @@ Cosenza, Italy Mar 2024 – July 2024
 # Skills
 **Certifications:** AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-**Languages:** Python, C#, Java, Ruby, Bash, TypeScript, JavaScript, C
+**Languages:** Java, C#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript
 
 **Cloud & DevOps:** AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible
 

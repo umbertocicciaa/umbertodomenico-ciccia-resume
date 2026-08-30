@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 28,
+    day: 30,
   ),
 )
 
@@ -201,7 +201,7 @@
 
 #strong[Certifications:] AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-#strong[Languages:] Python, C\#, Java, Ruby, Bash, TypeScript, JavaScript, C
+#strong[Languages:] Java, C\#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript
 
 #strong[Cloud & DevOps:] AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI\/CD, Prometheus, Grafana, Ansible
 
