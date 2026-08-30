@@ -101,7 +101,7 @@
 
 #regular-entry(
   [
-    #strong[Amazon Web Services (AWS)] #strong[Systems Development Engineer]
+    #strong[Amazon Web Services (AWS)], #strong[Systems Development Engineer]
 
     Dublin, Ireland, Nov 2025 – present
 
@@ -122,7 +122,7 @@
 
 #regular-entry(
   [
-    #strong[NTT Data] #strong[Cloud Engineer]
+    #strong[NTT Data], #strong[Cloud Engineer]
 
     Cosenza, Italy, Jan 2025 – Oct 2025
 
@@ -139,7 +139,7 @@
 
 #regular-entry(
   [
-    #strong[Vision One] #strong[Software Engineer]
+    #strong[Vision One], #strong[Software Engineer]
 
     Recanati, Italy, July 2024 – Dec 2024
 
@@ -156,7 +156,7 @@
 
 #regular-entry(
   [
-    #strong[Caliò Informatica] #strong[Software Engineer]
+    #strong[Caliò Informatica], #strong[Software Engineer]
 
     Cosenza, Italy, Mar 2024 – July 2024
 

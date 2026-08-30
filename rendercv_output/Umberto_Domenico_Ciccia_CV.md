@@ -7,7 +7,7 @@
 
 
 # Experience
-## **Amazon Web Services (AWS)** **Systems Development Engineer**
+## **Amazon Web Services (AWS)**, **Systems Development Engineer**
 
 Dublin, Ireland, Nov 2025 – present
 
@@ -23,7 +23,7 @@ Dublin, Ireland, Nov 2025 – present
 
 
 
-## **NTT Data** **Cloud Engineer**
+## **NTT Data**, **Cloud Engineer**
 
 Cosenza, Italy, Jan 2025 – Oct 2025
 
@@ -35,7 +35,7 @@ Cosenza, Italy, Jan 2025 – Oct 2025
 
 
 
-## **Vision One** **Software Engineer**
+## **Vision One**, **Software Engineer**
 
 Recanati, Italy, July 2024 – Dec 2024
 
@@ -47,7 +47,7 @@ Recanati, Italy, July 2024 – Dec 2024
 
 
 
-## **Caliò Informatica** **Software Engineer**
+## **Caliò Informatica**, **Software Engineer**
 
 Cosenza, Italy, Mar 2024 – July 2024
 
