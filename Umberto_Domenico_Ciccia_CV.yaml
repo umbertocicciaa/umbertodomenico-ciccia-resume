@@ -145,7 +145,7 @@ design:
   templates:
     experience_entry:
       main_column: |-
-        **COMPANY** **POSITION**
+        **COMPANY**, **POSITION**
         LOCATION, DATE,
         SUMMARY
         HIGHLIGHTS
