@@ -1,6 +1,6 @@
 # Umberto Domenico Ciccia's CV
 
-- Phone: ['+39 331 886 5017', '+353 85 726 7399']
+- Phone: ['+353 85 726 7399']
 - Email: [umbertociccia@icloud.com](mailto:umbertociccia@icloud.com)
 - GitHub: [umbertocicciaa](https://github.com/umbertocicciaa)
 - LinkedIn: [umberto-domenico-ciccia](https://linkedin.com/in/umberto-domenico-ciccia)
@@ -57,46 +57,31 @@ Cosenza, Italy, Mar 2024 – July 2024
 
 
 
-# Projects
-## **AWS MlOps**
-
-- Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
-
-- Automated model promotion and deployment using Lambda and performance thresholds.
-
-
-
-## **Raspberry Pi 4 Kubernetes Cluster**
-
-- Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
-
-- Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
-
-
-
 # Skills
 **Certifications:** AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-**Languages:** Java, C#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript
+**Languages:** Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
 
-**Cloud & DevOps:** AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible
+**Cloud:** AWS, GCP, Azure
+
+**Infrastructure:** Kubernetes, Terraform, Docker, Ansible
+
+**Backend:** Spring Boot, Quarkus, .NET, Django, FastAPI
 
 **Frontend:** React, Angular, Blazor
 
-**Backend:** .NET, Spring Boot, Quarkus, Django
+**Databases:** PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
-**Databases:** PostgreSQL, SQLServer, MongoDB, Redis
+**Observability:** Prometheus, Grafana
 
 # Education
-## **Università della Calabria**, Artificial Intelligence and Machine Learning, **GPA: 4.0/4.0**
+## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0- Completed all coursework except 4 exams before accepting a full-time Systems Development Engineer position at AWS.
 
-**M.Sc.**
+- Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
 
 
 
-## **Università della Calabria**, Computer Engineering, **GPA: 4.0/4.0**
-
-**B.Sc.**
+## **Università della Calabria**, B.Sc. in Computer Engineering -- GPA: 4.0/4.0- Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer
 
 
 

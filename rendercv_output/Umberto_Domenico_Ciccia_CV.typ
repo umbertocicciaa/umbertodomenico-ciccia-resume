@@ -6,7 +6,7 @@
   name: "Umberto Domenico Ciccia",
   title: "Umberto Domenico Ciccia - CV",
   footer: context { [#emph[Umberto Domenico Ciccia -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 30,
+    month: 9,
+    day: 4,
   ),
 )
 
@@ -90,7 +90,6 @@
 
 #connections(
   [#link("mailto:umbertociccia@icloud.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[umbertociccia\@icloud.com]]],
-  [#link("tel:+39-331-886-5017", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[331 886 5017]]],
   [#link("tel:+353-85-726-7399", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[085 726 7399]]],
   [#link("https://github.com/umbertocicciaa", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[umbertocicciaa]]],
   [#link("https://linkedin.com/in/umberto-domenico-ciccia", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[umberto-domenico-ciccia]]],
@@ -169,71 +168,47 @@
   ],
 )
 
-== Projects
-
-#regular-entry(
-  [
-    #strong[AWS MlOps]
-
-    - Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference.
-
-    - Automated model promotion and deployment using Lambda and performance thresholds.
-
-  ],
-  [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Raspberry Pi 4 Kubernetes Cluster]
-
-    - Designed and deployed a 3-node K3s cluster with CI\/CD, ingress (Traefik), and observability stack (Prometheus, Grafana).
-
-    - Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment.
-
-  ],
-  [
-  ],
-)
-
 == Skills
 
 #strong[Certifications:] AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-#strong[Languages:] Java, C\#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript
+#strong[Languages:] Java, C\#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
 
-#strong[Cloud & DevOps:] AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI\/CD, Prometheus, Grafana, Ansible
+#strong[Cloud:] AWS, GCP, Azure
+
+#strong[Infrastructure:] Kubernetes, Terraform, Docker, Ansible
+
+#strong[Backend:] Spring Boot, Quarkus, .NET, Django, FastAPI
 
 #strong[Frontend:] React, Angular, Blazor
 
-#strong[Backend:] .NET, Spring Boot, Quarkus, Django
+#strong[Databases:] PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
-#strong[Databases:] PostgreSQL, SQLServer, MongoDB, Redis
+#strong[Observability:] Prometheus, Grafana
 
 == Education
 
 #education-entry(
   [
-    #strong[Università della Calabria], Artificial Intelligence and Machine Learning, #strong[GPA: 4.0\/4.0]
+    #strong[Università della Calabria], M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0\/4.0
+
+    - Completed all coursework except 4 exams before accepting a full-time Systems Development Engineer position at AWS.
+
+    - Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
 
   ],
   [
-  ],
-  degree-column: [
-    #strong[M.Sc.]
   ],
 )
 
 #education-entry(
   [
-    #strong[Università della Calabria], Computer Engineering, #strong[GPA: 4.0\/4.0]
+    #strong[Università della Calabria], B.Sc. in Computer Engineering -- GPA: 4.0\/4.0
+
+    - Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer
 
   ],
   [
-  ],
-  degree-column: [
-    #strong[B.Sc.]
   ],
 )
 

@@ -4,7 +4,7 @@ cv:
   name: Umberto Domenico Ciccia
   email: umbertociccia@icloud.com
   phone:
-    - "+393318865017"
+#    - "+393318865017"
     - "+353857267399"
   social_networks:
     - network: GitHub
@@ -56,50 +56,60 @@ cv:
           - "Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n."
           - "Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%."
 
-    projects:
-      - name: "AWS MlOps"
-        highlights:
-          - "Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference."
-          - "Automated model promotion and deployment using Lambda and performance thresholds."
+#    projects:
+#      - name: "AWS MlOps"
+#        highlights:
+#          - "Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference."
+#          - "Automated model promotion and deployment using Lambda and performance thresholds."
 
 #      - name: "Italian Db"
 #        highlights:
 #          - "Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design."
 
-      - name: "Raspberry Pi 4 Kubernetes Cluster"
-        highlights:
-          - "Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana)."
-          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
+#      - name: "Raspberry Pi 4 Kubernetes Cluster"
+#        highlights:
+#          - "Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana)."
+#          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
 
     skills:
       - label: "Certifications"
         details: "AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate"
-      - label: "Languages"
-        details: "Java, C#, C++, C, Python, Ruby, Bash, PowerShell, TypeScript, JavaScript"
-      - label: "Cloud & DevOps"
-        details: "AWS, GCP, Azure, Kubernetes, Terraform, Docker, CI/CD, Prometheus, Grafana, Ansible"
-      - label: "Frontend"
-        details: "React, Angular, Blazor"
-      - label: "Backend"
-        details: ".NET, Spring Boot, Quarkus, Django"
-      - label: "Databases"
-        details: "PostgreSQL, SQLServer, MongoDB, Redis"
+      - label: Languages
+        details: Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
+      - label: Cloud
+        details: AWS, GCP, Azure
+      - label: Infrastructure
+        details: Kubernetes, Terraform, Docker, Ansible
+      - label: Backend
+        details: Spring Boot, Quarkus, .NET, Django, FastAPI
+      - label: Frontend
+        details: React, Angular, Blazor
+      - label: Databases
+        details: PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
+      - label: Observability
+        details: Prometheus, Grafana
 
     education:
       - institution: "Università della Calabria"
-        area: "Artificial Intelligence and Machine Learning"
         degree: "M.Sc."
+        area: "Artificial Intelligence and Machine Learning"
         gpa: "GPA: 4.0/4.0"
+        highlights:
+          - "Completed all coursework except 4 exams before accepting a full-time Systems Development Engineer position at AWS."
+          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
+
       - institution: "Università della Calabria"
-        area: "Computer Engineering"
         degree: "B.Sc."
+        area: "Computer Engineering"
         gpa: "GPA: 4.0/4.0"
+        highlights:
+          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer"
 
     extra:
       - bullet: "Won the AWS Jam for NTT Data."
       - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
       - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
-#      - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
+#     - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
       - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
 
 design:
@@ -159,9 +169,8 @@ design:
       date_and_location_column: ""
     education_entry:
       main_column: |-
-        **INSTITUTION**, AREA, **GPA**
-        LOCATION, DATE,
+        **INSTITUTION**, DEGREE_WITH_AREA -- GPA
         SUMMARY
         HIGHLIGHTS
-      degree_column: "**DEGREE**"
-      date_and_location_column: ""
+      degree_column:
+      date_and_location_column: DATE
