@@ -126,11 +126,13 @@
 
     Cosenza, Italy, Jan 2025 – Oct 2025
 
-    - Built CI\/CD pipelines on GCP to deploy Dataflow pipelines processing 10k+ daily records, improving data availability and release reliability.
+    - Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
 
-    - Designed multi-cloud infrastructure (AWS + on-prem) using Terraform and Kubernetes, improving deployment consistency and reducing failure rates by 70\%.
+    - Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70\% and improving deployment consistency for ItaliaOnline
 
-    - Developed microservices (Quarkus, Crossplane) to automate infrastructure policy management and optimize cloud resource allocation.
+    - Configured on-premises Jenkins to manage CI\/CD pipelines for new containerized application versions deployed to EKS, automating releases and reducing deployment errors by 70\% for ItaliaOnline.
+
+    - Built an AI-powered Quarkus agent using the Vertex AI SDK to estimate infrastructure costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform
 
   ],
   [
@@ -171,23 +173,27 @@
 
 == Skills
 
-#strong[Certifications:] AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
+#strong[Programming Languages:] Java, TypeScript, JavaScript, Python, C\#, SQL, Bash, PowerShell, C++
 
-#strong[Programming Languages:] Java, C\#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
+#strong[Frameworks:] Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
 
-#strong[Cloud:] AWS, GCP, Azure
-
-#strong[Infrastructure:] Kubernetes, Terraform, Docker, Ansible
-
-#strong[Backend:] Spring Boot, Quarkus, .NET, Django, FastAPI
-
-#strong[Frontend:] React, Angular, Blazor
+#strong[Cloud & DevOps:] AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
 
 #strong[Databases:] PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
-#strong[Observability:] Prometheus, Grafana
+#strong[Tools & Technologies:] Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
 
 #strong[Languages:] Italian (Native), English (Professional)
+
+== Certifications
+
+- AWS Certified Solutions Architect – Associate
+
+- Certified Kubernetes Administrator (CKA)
+
+- Google Associate Cloud Engineer
+
+- HashiCorp Terraform Associate
 
 == Education
 
@@ -215,10 +221,13 @@
   ],
 )
 
-== Extra
+#education-entry(
+  [
+    #strong[LeadTheFuture], Mentee
 
-- #link("https://leadthefuture.tech/")[Lead The Future Mentee], a highly selective STEM mentorship program with an acceptance rate below 20\%.
+    - Chosen as one of the few Italian students (acceptance rate \<20\%) for #link("https://leadthefuture.tech/")[LeadTheFuture], a prestigious non-profit mentorship program for high-achieving STEM students.
 
-- Won the AWS Jam for NTT Data.
-
-- Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus\/Grafana observability, autoscaling, and automated rollouts.
+  ],
+  [
+  ],
+)

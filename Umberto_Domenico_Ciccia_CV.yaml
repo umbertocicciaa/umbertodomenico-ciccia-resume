@@ -39,9 +39,11 @@ cv:
         start_date: "2025-01"
         end_date: "2025-10"
         highlights:
-          - "Built CI/CD pipelines on GCP to deploy Dataflow pipelines processing 10k+ daily records, improving data availability and release reliability."
-          - "Designed multi-cloud infrastructure (AWS + on-prem) using Terraform and Kubernetes, improving deployment consistency and reducing failure rates by 70%."
-          - "Developed microservices (Quarkus, Crossplane) to automate infrastructure policy management and optimize cloud resource allocation."
+          - "Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia"
+          - "Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70% and improving deployment consistency for ItaliaOnline"
+          - "Configured on-premises Jenkins to manage CI/CD pipelines for new containerized application versions deployed to EKS, automating releases and reducing deployment errors by 70% for ItaliaOnline."
+#         - "Developed a high-performance Quarkus microservice on NTT KUMO using Crossplane to manage Istio policies across remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving scalability"
+          - "Built an AI-powered Quarkus agent using the Vertex AI SDK to estimate infrastructure costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform"
 
       - company: "Vision One"
         position: "Software Engineer"
@@ -78,24 +80,29 @@ cv:
 #          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
 
     skills:
-      - label: "Certifications"
-        details: "AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate"
       - label: Programming Languages
-        details: Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
-      - label: Cloud
-        details: AWS, GCP, Azure
-      - label: Infrastructure
-        details: Kubernetes, Terraform, Docker, Ansible
-      - label: Backend
-        details: Spring Boot, Quarkus, .NET, Django, FastAPI
-      - label: Frontend
-        details: React, Angular, Blazor
+        details: Java, TypeScript, JavaScript, Python, C#, SQL, Bash, PowerShell, C++
+
+      - label: Frameworks
+        details: Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
+
+      - label: Cloud & DevOps
+        details: AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
+
       - label: Databases
         details: PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
-      - label: Observability
-        details: Prometheus, Grafana
+
+      - label: Tools & Technologies
+        details: Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
+
       - label: Languages
         details: Italian (Native), English (Professional)
+
+    certifications:
+      - bullet: AWS Certified Solutions Architect – Associate
+      - bullet: Certified Kubernetes Administrator (CKA)
+      - bullet: Google Associate Cloud Engineer
+      - bullet: HashiCorp Terraform Associate
 
     education:
       - institution: "Università della Calabria"
@@ -113,10 +120,15 @@ cv:
         highlights:
           - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer"
 
-    extra:
-      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
-      - bullet: "Won the AWS Jam for NTT Data."
-      - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
+      - institution: "LeadTheFuture"
+        area: "Mentee"
+        highlights:
+          - "Chosen as one of the few Italian students (acceptance rate <20%) for [LeadTheFuture](https://leadthefuture.tech/), a prestigious non-profit mentorship program for high-achieving STEM students."
+
+#    extra:
+#      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
+#      - bullet: "Won the AWS Jam for NTT Data."
+#      - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
 #     - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
 #     - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
 
