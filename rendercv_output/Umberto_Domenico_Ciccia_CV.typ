@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 4,
+    day: 8,
   ),
 )
 
@@ -91,6 +91,7 @@
 #connections(
   [#link("mailto:umbertociccia@icloud.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[umbertociccia\@icloud.com]]],
   [#link("tel:+353-85-726-7399", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[085 726 7399]]],
+  [#connection-with-icon("passport")[EU Citizen]],
   [#link("https://github.com/umbertocicciaa", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[umbertocicciaa]]],
   [#link("https://linkedin.com/in/umberto-domenico-ciccia", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[umberto-domenico-ciccia]]],
 )
@@ -172,7 +173,7 @@
 
 #strong[Certifications:] AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-#strong[Languages:] Java, C\#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
+#strong[Programming Languages:] Java, C\#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
 
 #strong[Cloud:] AWS, GCP, Azure
 
@@ -185,6 +186,8 @@
 #strong[Databases:] PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
 #strong[Observability:] Prometheus, Grafana
+
+#strong[Languages:] Italian (Native), English (Professional)
 
 == Education
 
@@ -214,10 +217,8 @@
 
 == Extra
 
+- #link("https://leadthefuture.tech/")[Lead The Future Mentee], a highly selective STEM mentorship program with an acceptance rate below 20\%.
+
 - Won the AWS Jam for NTT Data.
 
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus\/Grafana observability, autoscaling, and automated rollouts.
-
-- #link("https://leadthefuture.tech/")[Lead The Future Mentee], a highly selective STEM mentorship program with an acceptance rate below 20\%.
-
-- Maintainer of Unical\<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing #link("https://unicallovetelegram.github.io/IndiceArgomentiOrale")[unicallovetelegram.github.io\/IndiceArgomentiOrale].

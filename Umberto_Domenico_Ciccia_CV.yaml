@@ -6,6 +6,12 @@ cv:
   phone:
 #    - "+393318865017"
     - "+353857267399"
+
+  custom_connections:
+    - fontawesome_icon: "passport"
+      placeholder: "EU Citizen"
+      url: null
+
   social_networks:
     - network: GitHub
       username: umbertocicciaa
@@ -74,7 +80,7 @@ cv:
     skills:
       - label: "Certifications"
         details: "AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate"
-      - label: Languages
+      - label: Programming Languages
         details: Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
       - label: Cloud
         details: AWS, GCP, Azure
@@ -88,6 +94,8 @@ cv:
         details: PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
       - label: Observability
         details: Prometheus, Grafana
+      - label: Languages
+        details: Italian (Native), English (Professional)
 
     education:
       - institution: "Università della Calabria"
@@ -106,11 +114,11 @@ cv:
           - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer"
 
     extra:
+      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
       - bullet: "Won the AWS Jam for NTT Data."
       - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
-      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
 #     - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
-      - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
+#     - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
 
 design:
   theme: classic

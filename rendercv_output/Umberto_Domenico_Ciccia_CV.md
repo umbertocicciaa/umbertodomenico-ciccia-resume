@@ -60,7 +60,7 @@ Cosenza, Italy, Mar 2024 – July 2024
 # Skills
 **Certifications:** AWS Solutions Architect Associate, Certified Kubernetes Administrator (CKA), Google Associate Cloud Engineer, Terraform Associate
 
-**Languages:** Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
+**Programming Languages:** Java, C#, Python, C++, TypeScript, JavaScript, Bash, PowerShell, C
 
 **Cloud:** AWS, GCP, Azure
 
@@ -74,6 +74,8 @@ Cosenza, Italy, Mar 2024 – July 2024
 
 **Observability:** Prometheus, Grafana
 
+**Languages:** Italian (Native), English (Professional)
+
 # Education
 ## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0- Completed all coursework except 4 exams before accepting a full-time Systems Development Engineer position at AWS.
 
@@ -86,10 +88,8 @@ Cosenza, Italy, Mar 2024 – July 2024
 
 
 # Extra
+- [Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%.
+
 - Won the AWS Jam for NTT Data.
 
 - Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts.
-
-- [Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%.
-
-- Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale).
