@@ -175,15 +175,15 @@ design:
   templates:
     experience_entry:
       main_column: |-
-        **COMPANY**, **POSITION**
-        LOCATION, DATE,
+        **COMPANY**, LOCATION, DATE
+        **POSITION**
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""
     normal_entry:
       main_column: |-
         **NAME**
-        LOCATION, DATE,
+        LOCATION, DATE
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""

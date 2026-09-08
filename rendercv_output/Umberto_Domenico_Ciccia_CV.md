@@ -7,9 +7,9 @@
 
 
 # Experience
-## **Amazon Web Services (AWS)**, **Systems Development Engineer**
+## **Amazon Web Services (AWS)**, Dublin, Ireland, Nov 2025 – present
 
-Dublin, Ireland, Nov 2025 – present
+**Systems Development Engineer**
 
 - Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
@@ -23,9 +23,9 @@ Dublin, Ireland, Nov 2025 – present
 
 
 
-## **NTT Data**, **Cloud Engineer**
+## **NTT Data**, Cosenza, Italy, Jan 2025 – Oct 2025
 
-Cosenza, Italy, Jan 2025 – Oct 2025
+**Cloud Engineer**
 
 - Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
 
@@ -37,9 +37,9 @@ Cosenza, Italy, Jan 2025 – Oct 2025
 
 
 
-## **Vision One**, **Software Engineer**
+## **Vision One**, Recanati, Italy, July 2024 – Dec 2024
 
-Recanati, Italy, July 2024 – Dec 2024
+**Software Engineer**
 
 - Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%.
 
@@ -49,9 +49,9 @@ Recanati, Italy, July 2024 – Dec 2024
 
 
 
-## **Caliò Informatica**, **Software Engineer**
+## **Caliò Informatica**, Cosenza, Italy, Mar 2024 – July 2024
 
-Cosenza, Italy, Mar 2024 – July 2024
+**Software Engineer**
 
 - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
 

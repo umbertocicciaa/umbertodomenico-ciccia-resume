@@ -101,9 +101,9 @@
 
 #regular-entry(
   [
-    #strong[Amazon Web Services (AWS)], #strong[Systems Development Engineer]
+    #strong[Amazon Web Services (AWS)], Dublin, Ireland, Nov 2025 – present
 
-    Dublin, Ireland, Nov 2025 – present
+    #strong[Systems Development Engineer]
 
     - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
@@ -122,9 +122,9 @@
 
 #regular-entry(
   [
-    #strong[NTT Data], #strong[Cloud Engineer]
+    #strong[NTT Data], Cosenza, Italy, Jan 2025 – Oct 2025
 
-    Cosenza, Italy, Jan 2025 – Oct 2025
+    #strong[Cloud Engineer]
 
     - Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
 
@@ -141,9 +141,9 @@
 
 #regular-entry(
   [
-    #strong[Vision One], #strong[Software Engineer]
+    #strong[Vision One], Recanati, Italy, July 2024 – Dec 2024
 
-    Recanati, Italy, July 2024 – Dec 2024
+    #strong[Software Engineer]
 
     - Developed scheduling system in .NET\/Blazor, improving task allocation efficiency by 80\%.
 
@@ -158,9 +158,9 @@
 
 #regular-entry(
   [
-    #strong[Caliò Informatica], #strong[Software Engineer]
+    #strong[Caliò Informatica], Cosenza, Italy, Mar 2024 – July 2024
 
-    Cosenza, Italy, Mar 2024 – July 2024
+    #strong[Software Engineer]
 
     - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
 
