@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 8,
+    day: 10,
   ),
 )
 
@@ -103,7 +103,7 @@
   [
     #strong[Amazon Web Services (AWS)], Dublin, Ireland, Nov 2025 – present
 
-    #strong[Systems Development Engineer]
+    #strong[System Development Engineer]
 
     - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
