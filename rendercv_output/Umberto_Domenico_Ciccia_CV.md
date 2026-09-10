@@ -19,7 +19,7 @@
 
 - Unblocked a strategic customer launch by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
 
-- Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
+- Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.999% availability through incident response and RCA-driven improvements.
 
 
 
