@@ -21,7 +21,7 @@ cv:
   sections:
     experience:
       - company: "Amazon Web Services (AWS)"
-        position: "Systems Development Engineer"
+        position: "System Development Engineer"
         location: "Dublin, Ireland"
         start_date: "2025-11"
         end_date: "present"
