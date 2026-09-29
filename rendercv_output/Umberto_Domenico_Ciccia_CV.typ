@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 10,
+    day: 29,
   ),
 )
 
@@ -105,15 +105,15 @@
 
     #strong[System Development Engineer]
 
+    - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80\% to 98\% in eusc-de-east-1.
+
+    - Unblocked a strategic customer launch under C-level executive escalation by delivering #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html")[DNSSEC] support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure.
+
+    - Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions.
+
+    - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53], #link("https://docs.aws.eu/esc/latest/userguide/waf.html")[AWS WAF], #link("https://docs.aws.eu/esc/latest/userguide/shield.html")[AWS Shield] services in sovereign regions, achieving 99.99\% availability through incident response and RCA-driven improvements.
+
     - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
-
-    - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness to 98\% in eusc-de-east-1.
-
-    - Redesigned DNS infrastructure, eliminating a recurring misconfiguration that generated 84 SEV-2 alerts over six months across all AWS partitions.
-
-    - Unblocked a strategic customer launch by delivering #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html")[DNSSEC] support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, allowing the customer to migrate without modifying their existing infrastructure.
-
-    - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53], #link("https://docs.aws.eu/esc/latest/userguide/waf.html")[AWS WAF], #link("https://docs.aws.eu/esc/latest/userguide/shield.html")[AWS Shield] services in sovereign regions, achieving 99.999\% availability through incident response and RCA-driven improvements.
 
   ],
   [
@@ -130,9 +130,9 @@
 
     - Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70\% and improving deployment consistency for ItaliaOnline
 
-    - Configured on-premises Jenkins to manage CI\/CD pipelines for new containerized application versions deployed to EKS, automating releases and reducing deployment errors by 70\% for ItaliaOnline.
+    - Configured on-premises Jenkins to manage CI\/CD pipelines for new containerized application versions deployed to EKS, fully automating releases and deployment (100\%) for ItaliaOnline.
 
-    - Built an AI-powered Quarkus agent using the Vertex AI SDK to estimate infrastructure costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform
+    - Reduced infrastructure costs by 30\% by building an AI-powered Quarkus agent with the Vertex AI SDK to estimate costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform.
 
   ],
   [
@@ -200,8 +200,6 @@
 #education-entry(
   [
     #strong[Università della Calabria], M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0\/4.0
-
-    - Completed all coursework except 4 exams before accepting a full-time Systems Development Engineer position at AWS.
 
     - Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
 
