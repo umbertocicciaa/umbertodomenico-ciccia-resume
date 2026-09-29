@@ -29,8 +29,9 @@ cv:
           - "Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80% to 98% in eusc-de-east-1."
           - "Unblocked a strategic customer launch under C-level executive escalation by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure."
           - "Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions."
-          - "Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.99% availability through incident response and RCA-driven improvements."
+          - "Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.99% availability through incident response, on-call rotations and RCA-driven improvements."
           - "Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
+#          - "Resolved 150+ annual tickets, meeting a 48-hour SLA for non-SEV-2 issues through structured troubleshooting."
 #         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
 
       - company: "NTT Data"

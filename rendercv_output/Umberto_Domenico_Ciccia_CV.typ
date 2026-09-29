@@ -111,7 +111,7 @@
 
     - Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions.
 
-    - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53], #link("https://docs.aws.eu/esc/latest/userguide/waf.html")[AWS WAF], #link("https://docs.aws.eu/esc/latest/userguide/shield.html")[AWS Shield] services in sovereign regions, achieving 99.99\% availability through incident response and RCA-driven improvements.
+    - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53], #link("https://docs.aws.eu/esc/latest/userguide/waf.html")[AWS WAF], #link("https://docs.aws.eu/esc/latest/userguide/shield.html")[AWS Shield] services in sovereign regions, achieving 99.99\% availability through incident response, on-call rotations and RCA-driven improvements.
 
     - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
