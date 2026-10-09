@@ -2,9 +2,9 @@
 
 cv:
   name: Umberto Domenico Ciccia
+  headline: Software Engineer
   email: umbertociccia@icloud.com
   phone:
-#    - "+393318865017"
     - "+353857267399"
 
   custom_connections:
@@ -21,30 +21,28 @@ cv:
   sections:
     experience:
       - company: "Amazon Web Services (AWS)"
-        position: "System Development Engineer"
+        position: "Systems Development Engineer"
         location: "Dublin, Ireland"
         start_date: "2025-11"
         end_date: "present"
         highlights:
-          - "Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80% to 98% in eusc-de-east-1."
-          - "Unblocked a strategic customer launch under C-level executive escalation by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure."
-          - "Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions."
-          - "Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.99% availability through incident response, on-call rotations and RCA-driven improvements."
-          - "Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
-#          - "Resolved 150+ annual tickets, meeting a 48-hour SLA for non-SEV-2 issues through structured troubleshooting."
-#         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
+          - "Delivered Route 53 CIDR-based DNS routing end-to-end in the AWS, implementing service APIs, infrastructure integration, console support, and unit and integration tests, completing delivery 4 months ahead of schedule."
+          - "Implemented DNSSEC support for Route 53 in the AWS 3 weeks ahead of schedule, unblocking a strategic customer launch and enabling migration without changes to existing customer infrastructure."
+          - "Extended Route 53 APIs to support automatic region discovery, updating more than 40 internal packages across CIDR routing and DNSSEC feature delivery."
+          - "Refactored 184 CDK and Ruby Route 53 infrastructure pipelines, increasing pipeline freshness from 80% to 98% in eusc-de-east-1."
+          - "Redesigned DNS infrastructure to eliminate a recurring misconfiguration, reducing SEV-2 alerts from 84 to 0 over 6 months across AWS partitions."
 
-      - company: "NTT Data"
-        position: "Cloud Engineer"
+      - company: "NTT DATA"
+        position: "Cloud Software Engineer"
         location: "Cosenza, Italy"
         start_date: "2025-01"
         end_date: "2025-10"
         highlights:
-          - "Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia"
-          - "Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70% and improving deployment consistency for ItaliaOnline"
-          - "Configured on-premises Jenkins to manage CI/CD pipelines for new containerized application versions deployed to EKS, fully automating releases and deployment (100%) for ItaliaOnline."
-#         - "Developed a high-performance Quarkus microservice on NTT KUMO using Crossplane to manage Istio policies across remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving scalability"
-          - "Reduced infrastructure costs by 30% by building an AI-powered Quarkus agent with the Vertex AI SDK to estimate costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform."
+          - "Developed a Quarkus backend agent exposing REST APIs to parse user-defined cloud architectures from JSON, integrate cloud pricing through an SDK, and use the Vertex AI SDK to compare alternative architectures and recommend cost optimizations, contributing to a 30% reduction in infrastructure costs on the NTT KUMO platform."
+          - "Implemented custom Apache Dataflow processing functions and optimized pipeline infrastructure to process 10,000+ daily records, improving data availability and release reliability for Coop Italia."
+          - "Designed and deployed multi-cloud infrastructure spanning AWS and on-premises environments using Terraform and Kubernetes, reducing deployment failures by 70% for ItaliaOnline."
+          - "Automated containerized application delivery using Jenkins CI/CD pipelines and Amazon EKS, implementing pipeline scripting, automated testing, and deployment workflows for ItaliaOnline."
+          - "Implemented unit and integration tests for software components."
 
       - company: "Vision One"
         position: "Software Engineer"
@@ -52,9 +50,10 @@ cv:
         start_date: "2024-07"
         end_date: "2024-12"
         highlights:
-          - "Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%."
-          - "Refactored legacy codebase, reducing unused code by 60% and improving maintainability."
-          - "Introduced automated testing (xUnit), increasing test coverage to 80%."
+          - "Developed an on-call management application using .NET and Blazor, implementing backend API endpoints, database models, and queries."
+          - "Profiled and optimized scheduling logic, backend operations, and database access, improving task allocation efficiency by 80%."
+          - "Refactored a legacy codebase, removing 60% of unused code and improving maintainability."
+          - "Introduced automated unit testing with xUnit, achieving 80% test coverage."
 
       - company: "Caliò Informatica"
         position: "Software Engineer"
@@ -62,48 +61,24 @@ cv:
         start_date: "2024-03"
         end_date: "2024-07"
         highlights:
-          - "Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n."
-          - "Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%."
-
-#    projects:
-#      - name: "AWS MlOps"
-#        highlights:
-#          - "Built end-to-end ML pipeline (Terraform, SageMaker) for training, evaluation, and real-time inference."
-#          - "Automated model promotion and deployment using Lambda and performance thresholds."
-
-#      - name: "Italian Db"
-#        highlights:
-#          - "Designed and implemented an educational DBMS from scratch to explore core database internals, including query execution, storage management, and data structure design."
-
-#      - name: "Raspberry Pi 4 Kubernetes Cluster"
-#        highlights:
-#          - "Designed and deployed a 3-node K3s cluster with CI/CD, ingress (Traefik), and observability stack (Prometheus, Grafana)."
-#          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
+          - "Developed an end-to-end visual workflow builder and backend execution engine for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create and execute AI workflows through a drag-and-drop interface."
+          - "Implemented a graph-based workflow execution model in which nodes encapsulate LLM context, predecessor and successor references, metadata, and execution status."
+          - "Implemented REST API communication between the workflow editor and backend execution engine."
+          - "Optimized OpenAI API consumption using caching and LLM routing, reducing operational costs by 80% and improving response performance by 60%."
+          - "Implemented unit and integration tests for software components."
 
     skills:
       - label: Programming Languages
-        details: Java, TypeScript, JavaScript, Python, C#, SQL, Bash, PowerShell, C++
+        details: Java, C++, Python, C#, TypeScript, JavaScript, Ruby, SQL, C, Bash, PowerShell
+      
+      - label: Software Engineering
+        details: Object-Oriented Programming, Git, Data Structures and Algorithms, Graph Algorithms, API Design, Software Design Patterns, Debugging, Code Refactoring, Spring Boot, Quarkus, .NET, FastAPI, Django, REST APIs, OpenAPI, gRPC, Microservices, React, Angular, Blazor, HTML, CSS, JUnit, xUnit, Testcontainers, SonarQube, Unit Testing, Integration Testing, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB, Apache Beam, Data Pipelines
 
-      - label: Frameworks
-        details: Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
-
-      - label: Cloud & DevOps
-        details: AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
-
-      - label: Databases
-        details: PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
-
-      - label: Tools & Technologies
-        details: Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
+      - label: Distributed Systems & Cloud
+        details: AWS, GCP, Azure, Distributed Systems, Computer Networking, Kubernetes, Docker, Terraform, Pulumi, AWS CDK, Linux, CMake, Ninja, Jenkins, Argo CD, Ansible, Helm, NGINX, Istio, Prometheus, Grafana
 
       - label: Languages
         details: Italian (Native), English (Professional)
-
-    certifications:
-      - bullet: AWS Certified Solutions Architect – Associate
-      - bullet: Certified Kubernetes Administrator (CKA)
-      - bullet: Google Associate Cloud Engineer
-      - bullet: HashiCorp Terraform Associate
 
     education:
       - institution: "Università della Calabria"
@@ -111,26 +86,14 @@ cv:
         area: "Artificial Intelligence and Machine Learning"
         gpa: "GPA: 4.0/4.0"
         highlights:
-          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
+          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed Systems, Knowledge Representation and Reasoning, Statistical Learning"
 
       - institution: "Università della Calabria"
         degree: "B.Sc."
         area: "Computer Engineering"
         gpa: "GPA: 4.0/4.0"
         highlights:
-          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer"
-
-      - institution: "LeadTheFuture"
-        area: "Mentee"
-        highlights:
-          - "Chosen as one of the few Italian students (acceptance rate <20%) for [LeadTheFuture](https://leadthefuture.tech/), a prestigious non-profit mentorship program for high-achieving STEM students."
-
-#    extra:
-#      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
-#      - bullet: "Won the AWS Jam for NTT Data."
-#      - bullet: "Participated in the MLSysOps Hackathon, designing Kubernetes-based policies for reliable ML deployments with Prometheus/Grafana observability, autoscaling, and automated rollouts."
-#     - bullet: "Open Source Contributions: [umbertocicciaa/Contributions.md](https://github.com/umbertocicciaa/umbertocicciaa/blob/main/Contributions.md)"
-#     - bullet: "Maintainer of Unical<3Telegram, GitHub platform used by 2000+ DIMES students for exam preparation and resource sharing [unicallovetelegram.github.io/IndiceArgomentiOrale](https://unicallovetelegram.github.io/IndiceArgomentiOrale)."
+          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object-Oriented Programming, Software Engineering"
 
 design:
   theme: classic
@@ -152,8 +115,8 @@ design:
     line_spacing: 0.58em
 
   header:
-    space_below_name: 0.5cm
-    space_below_connections: 0.5cm
+    space_below_name: 0.1cm
+    space_below_connections: 0.2cm
 
   section_titles:
     space_above: 0.3cm
@@ -180,6 +143,7 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""
+
     normal_entry:
       main_column: |-
         **NAME**
@@ -187,6 +151,7 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: ""
+
     education_entry:
       main_column: |-
         **INSTITUTION**, DEGREE_WITH_AREA -- GPA

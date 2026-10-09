@@ -6,7 +6,7 @@
   name: "Umberto Domenico Ciccia",
   title: "Umberto Domenico Ciccia - CV",
   footer: context { [#emph[Umberto Domenico Ciccia -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Sept 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.5cm,
+  header-space-below-name: 0.1cm,
   header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.5cm,
+  header-space-below-connections: 0.2cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
@@ -80,13 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 9,
-    day: 29,
+    month: 10,
+    day: 9,
   ),
 )
 
 
 = Umberto Domenico Ciccia
+
+  #headline([Software Engineer])
 
 #connections(
   [#link("mailto:umbertociccia@icloud.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[umbertociccia\@icloud.com]]],
@@ -103,17 +105,17 @@
   [
     #strong[Amazon Web Services (AWS)], Dublin, Ireland, Nov 2025 – present
 
-    #strong[System Development Engineer]
+    #strong[Systems Development Engineer]
 
-    - Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80\% to 98\% in eusc-de-east-1.
+    - Delivered Route 53 CIDR-based DNS routing end-to-end in the AWS, implementing service APIs, infrastructure integration, console support, and unit and integration tests, completing delivery 4 months ahead of schedule.
 
-    - Unblocked a strategic customer launch under C-level executive escalation by delivering #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html")[DNSSEC] support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure.
+    - Implemented DNSSEC support for Route 53 in the AWS 3 weeks ahead of schedule, unblocking a strategic customer launch and enabling migration without changes to existing customer infrastructure.
 
-    - Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions.
+    - Extended Route 53 APIs to support automatic region discovery, updating more than 40 internal packages across CIDR routing and DNSSEC feature delivery.
 
-    - Maintained reliability of #link("https://docs.aws.eu/esc/latest/userguide/route53.html")[Route 53], #link("https://docs.aws.eu/esc/latest/userguide/waf.html")[AWS WAF], #link("https://docs.aws.eu/esc/latest/userguide/shield.html")[AWS Shield] services in sovereign regions, achieving 99.99\% availability through incident response, on-call rotations and RCA-driven improvements.
+    - Refactored 184 CDK and Ruby Route 53 infrastructure pipelines, increasing pipeline freshness from 80\% to 98\% in eusc-de-east-1.
 
-    - Delivered the Route 53 #link("https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html")[CIDR routing] feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
+    - Redesigned DNS infrastructure to eliminate a recurring misconfiguration, reducing SEV-2 alerts from 84 to 0 over 6 months across AWS partitions.
 
   ],
   [
@@ -122,17 +124,19 @@
 
 #regular-entry(
   [
-    #strong[NTT Data], Cosenza, Italy, Jan 2025 – Oct 2025
+    #strong[NTT DATA], Cosenza, Italy, Jan 2025 – Oct 2025
 
-    #strong[Cloud Engineer]
+    #strong[Cloud Software Engineer]
 
-    - Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
+    - Developed a Quarkus backend agent exposing REST APIs to parse user-defined cloud architectures from JSON, integrate cloud pricing through an SDK, and use the Vertex AI SDK to compare alternative architectures and recommend cost optimizations, contributing to a 30\% reduction in infrastructure costs on the NTT KUMO platform.
 
-    - Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70\% and improving deployment consistency for ItaliaOnline
+    - Implemented custom Apache Dataflow processing functions and optimized pipeline infrastructure to process 10,000+ daily records, improving data availability and release reliability for Coop Italia.
 
-    - Configured on-premises Jenkins to manage CI\/CD pipelines for new containerized application versions deployed to EKS, fully automating releases and deployment (100\%) for ItaliaOnline.
+    - Designed and deployed multi-cloud infrastructure spanning AWS and on-premises environments using Terraform and Kubernetes, reducing deployment failures by 70\% for ItaliaOnline.
 
-    - Reduced infrastructure costs by 30\% by building an AI-powered Quarkus agent with the Vertex AI SDK to estimate costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform.
+    - Automated containerized application delivery using Jenkins CI\/CD pipelines and Amazon EKS, implementing pipeline scripting, automated testing, and deployment workflows for ItaliaOnline.
+
+    - Implemented unit and integration tests for software components.
 
   ],
   [
@@ -145,11 +149,13 @@
 
     #strong[Software Engineer]
 
-    - Developed scheduling system in .NET\/Blazor, improving task allocation efficiency by 80\%.
+    - Developed an on-call management application using .NET and Blazor, implementing backend API endpoints, database models, and queries.
 
-    - Refactored legacy codebase, reducing unused code by 60\% and improving maintainability.
+    - Profiled and optimized scheduling logic, backend operations, and database access, improving task allocation efficiency by 80\%.
 
-    - Introduced automated testing (xUnit), increasing test coverage to 80\%.
+    - Refactored a legacy codebase, removing 60\% of unused code and improving maintainability.
+
+    - Introduced automated unit testing with xUnit, achieving 80\% test coverage.
 
   ],
   [
@@ -162,9 +168,15 @@
 
     #strong[Software Engineer]
 
-    - Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
+    - Developed an end-to-end visual workflow builder and backend execution engine for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create and execute AI workflows through a drag-and-drop interface.
 
-    - Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80\% while improving response performance by 60\%.
+    - Implemented a graph-based workflow execution model in which nodes encapsulate LLM context, predecessor and successor references, metadata, and execution status.
+
+    - Implemented REST API communication between the workflow editor and backend execution engine.
+
+    - Optimized OpenAI API consumption using caching and LLM routing, reducing operational costs by 80\% and improving response performance by 60\%.
+
+    - Implemented unit and integration tests for software components.
 
   ],
   [
@@ -173,27 +185,13 @@
 
 == Skills
 
-#strong[Programming Languages:] Java, TypeScript, JavaScript, Python, C\#, SQL, Bash, PowerShell, C++
+#strong[Programming Languages:] Java, C++, Python, C\#, TypeScript, JavaScript, Ruby, SQL, C, Bash, PowerShell
 
-#strong[Frameworks:] Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
+#strong[Software Engineering:] Object-Oriented Programming, Git, Data Structures and Algorithms, Graph Algorithms, API Design, Software Design Patterns, Debugging, Code Refactoring, Spring Boot, Quarkus, .NET, FastAPI, Django, REST APIs, OpenAPI, gRPC, Microservices, React, Angular, Blazor, HTML, CSS, JUnit, xUnit, Testcontainers, SonarQube, Unit Testing, Integration Testing, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB, Apache Beam, Data Pipelines
 
-#strong[Cloud & DevOps:] AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
-
-#strong[Databases:] PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
-
-#strong[Tools & Technologies:] Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
+#strong[Distributed Systems & Cloud:] AWS, GCP, Azure, Distributed Systems, Computer Networking, Kubernetes, Docker, Terraform, Pulumi, AWS CDK, Linux, CMake, Ninja, Jenkins, Argo CD, Ansible, Helm, NGINX, Istio, Prometheus, Grafana
 
 #strong[Languages:] Italian (Native), English (Professional)
-
-== Certifications
-
-- AWS Certified Solutions Architect – Associate
-
-- Certified Kubernetes Administrator (CKA)
-
-- Google Associate Cloud Engineer
-
-- HashiCorp Terraform Associate
 
 == Education
 
@@ -201,7 +199,7 @@
   [
     #strong[Università della Calabria], M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0\/4.0
 
-    - Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
+    - Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed Systems, Knowledge Representation and Reasoning, Statistical Learning
 
   ],
   [
@@ -212,18 +210,7 @@
   [
     #strong[Università della Calabria], B.Sc. in Computer Engineering -- GPA: 4.0\/4.0
 
-    - Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer
-
-  ],
-  [
-  ],
-)
-
-#education-entry(
-  [
-    #strong[LeadTheFuture], Mentee
-
-    - Chosen as one of the few Italian students (acceptance rate \<20\%) for #link("https://leadthefuture.tech/")[LeadTheFuture], a prestigious non-profit mentorship program for high-achieving STEM students.
+    - Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object-Oriented Programming, Software Engineering
 
   ],
   [
