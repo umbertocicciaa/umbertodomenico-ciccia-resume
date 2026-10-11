@@ -41,11 +41,11 @@
 
 **Software Engineer**
 
-- Developed an on-call scheduling system using .NET and Blazor, improving operator-to-shift assignment efficiency by 80% compared with the previous manual process.
+- Developed an on-call rotation scheduling system using .NET and Blazor, automating operator-to-shift assignments and improving allocation efficiency by 80% compared with the previous manual process.
 
-- Refactored legacy codebase, reducing unused code by 60% and improving maintainability.
+- Refactored legacy code, removing 60% of unused code to simplify the codebase and improve maintainability.
 
-- Introduced automated testing (xUnit), increasing test coverage to 80%.
+- Introduced automated testing with xUnit, achieving 80% test coverage to strengthen regression detection and release confidence.
 
 
 
@@ -53,9 +53,9 @@
 
 **Software Engineer**
 
-- Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create AI workflows through a visual drag-and-drop interface inspired by n8n.
+- Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create and configure AI workflows through a visual drag-and-drop interface.
 
-- Optimized OpenAI API consumption through request redesign and prompt engineering strategies, reducing operational costs by 80% while improving response performance by 60%.
+- Optimized OpenAI API requests and prompts, reducing costs by 80% and improving response performance by 60%.
 
 
 
