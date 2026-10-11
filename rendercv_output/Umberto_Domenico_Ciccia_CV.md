@@ -11,15 +11,15 @@
 
 **System Development Engineer**
 
-- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80% to 98% in eusc-de-east-1.
+- Redesigned DNS infrastructure following root-cause analysis of a recurring misconfiguration, eliminating the underlying issue and reducing SEV-2 alerts from 84 to zero over six months across all AWS partitions.
 
-- Unblocked a strategic customer launch under C-level executive escalation by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure.
+- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing the percentage with artifacts less than 40 days old from 80% to 98% in eusc-de-east-1, improving infrastructure software and patch freshness.
 
-- Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions.
+- Unblocked a strategic customer launch under C-level executive escalation by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure.
 
-- Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.99% availability through incident response, on-call rotations and RCA-driven improvements.
+- Delivered the Route 53 CIDR routing feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
 
-- Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
+- Maintained operational reliability of Route 53, AWS WAF, and AWS Shield in AWS European Sovereign Cloud through production incident response, on-call rotations, and root-cause-driven improvements, supporting services with demanding availability commitments.
 
 
 
@@ -27,13 +27,13 @@
 
 **Cloud Engineer**
 
-- Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
+- Replaced manual Bash-script deployments with Jenkins CI/CD pipelines for containerized applications on Amazon EKS, automating the release and deployment process for ItaliaOnline.
 
 - Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70% and improving deployment consistency for ItaliaOnline
 
-- Configured on-premises Jenkins to manage CI/CD pipelines for new containerized application versions deployed to EKS, fully automating releases and deployment (100%) for ItaliaOnline.
+- Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
 
-- Reduced infrastructure costs by 30% by building an AI-powered Quarkus agent with the Vertex AI SDK to estimate costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform.
+- Built an AI-powered Quarkus agent using the Vertex AI SDK to analyze user-defined multi-cloud architectures and recommend optimized configurations, reducing estimated infrastructure costs by 30% versus the original designs on the NTT KUMO platform.
 
 
 
@@ -41,7 +41,7 @@
 
 **Software Engineer**
 
-- Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%.
+- Developed an on-call scheduling system using .NET and Blazor, improving operator-to-shift assignment efficiency by 80% compared with the previous manual process.
 
 - Refactored legacy codebase, reducing unused code by 60% and improving maintainability.
 
@@ -60,15 +60,15 @@
 
 
 # Skills
-**Programming Languages:** Java, TypeScript, JavaScript, Python, C#, SQL, Bash, PowerShell, C++
+**SRE & Reliability Engineering:** SLIs/SLOs, Error Budgets, Incident Management, Root Cause Analysis (RCA), On-Call Operations, Capacity Planning, Performance Engineering, Resilience & Disaster Recovery
 
-**Frameworks:** Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
+**Cloud & Infrastructure:** AWS, GCP, Azure, Linux, TCP/IP, HTTP/TLS, DNS, Kubernetes, Docker, Helm, Terraform, Pulumi, Crossplane, AWS CDK, Ansible
 
-**Cloud & DevOps:** AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
+**Observability:** Prometheus, Grafana, Monitoring, Alerting, Logging, Distributed Tracing
 
-**Databases:** PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
+**CI/CD & Automation:** Jenkins, Argo CD, Git, Bash, Python, PowerShell, Safe Deployments, Change Management, Infrastructure Automation
 
-**Tools & Technologies:** Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
+**Programming Languages, Frameworks & Databases:** Java, TypeScript, JavaScript, C#, SQL, C++,  Quarkus, Spring Boot, .NET, FastAPI, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
 **Languages:** Italian (Native), English (Professional)
 
@@ -82,14 +82,6 @@
 - HashiCorp Terraform Associate
 
 # Education
-## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0- Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
+## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0
 
-
-
-## **Università della Calabria**, B.Sc. in Computer Engineering -- GPA: 4.0/4.0- Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer
-
-
-
-## **LeadTheFuture**, Mentee- Chosen as one of the few Italian students (acceptance rate <20%) for [LeadTheFuture](https://leadthefuture.tech/), a prestigious non-profit mentorship program for high-achieving STEM students.
-
-
+## **Università della Calabria**, B.Sc. in Computer Engineering -- GPA: 4.0/4.0

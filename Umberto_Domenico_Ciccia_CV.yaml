@@ -3,6 +3,7 @@
 cv:
   name: Umberto Domenico Ciccia
   email: umbertociccia@icloud.com
+  headline: Site Reliability Engineer | Cloud Infrastructure | Distributed Systems & Automation
   phone:
 #    - "+393318865017"
     - "+353857267399"
@@ -26,11 +27,11 @@ cv:
         start_date: "2025-11"
         end_date: "present"
         highlights:
-          - "Led the refactoring of 184 Route 53 infrastructure pipelines, increasing pipeline freshness from 80% to 98% in eusc-de-east-1."
-          - "Unblocked a strategic customer launch under C-level executive escalation by delivering [DNSSEC](https://docs.aws.eu/Route53/latest/DeveloperGuide/dns-configuring-dnssec.html) support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure."
-          - "Redesigned DNS infrastructure, eliminating a recurring misconfiguration and reducing SEV-2 alerts from 84 to 0 over six months across all AWS partitions."
-          - "Maintained reliability of [Route 53](https://docs.aws.eu/esc/latest/userguide/route53.html), [AWS WAF](https://docs.aws.eu/esc/latest/userguide/waf.html), [AWS Shield](https://docs.aws.eu/esc/latest/userguide/shield.html) services in sovereign regions, achieving 99.99% availability through incident response, on-call rotations and RCA-driven improvements."
-          - "Delivered the Route 53 [CIDR routing](https://docs.aws.eu/Route53/latest/DeveloperGuide/resource-record-sets-working-with-cidr-locations.html) feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
+          - "Redesigned DNS infrastructure following root-cause analysis of a recurring misconfiguration, eliminating the underlying issue and reducing SEV-2 alerts from 84 to zero over six months across all AWS partitions."
+          - "Led the refactoring of 184 Route 53 infrastructure pipelines, increasing the percentage with artifacts less than 40 days old from 80% to 98% in eusc-de-east-1, improving infrastructure software and patch freshness."
+          - "Unblocked a strategic customer launch under C-level executive escalation by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure."
+          - "Delivered the Route 53 CIDR routing feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
+          - "Maintained operational reliability of Route 53, AWS WAF, and AWS Shield in AWS European Sovereign Cloud through production incident response, on-call rotations, and root-cause-driven improvements, supporting services with demanding availability commitments."
 #          - "Resolved 150+ annual tickets, meeting a 48-hour SLA for non-SEV-2 issues through structured troubleshooting."
 #         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
 
@@ -40,11 +41,11 @@ cv:
         start_date: "2025-01"
         end_date: "2025-10"
         highlights:
-          - "Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia"
+          - "Replaced manual Bash-script deployments with Jenkins CI/CD pipelines for containerized applications on Amazon EKS, automating the release and deployment process for ItaliaOnline."
           - "Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70% and improving deployment consistency for ItaliaOnline"
-          - "Configured on-premises Jenkins to manage CI/CD pipelines for new containerized application versions deployed to EKS, fully automating releases and deployment (100%) for ItaliaOnline."
+          - "Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia"
 #         - "Developed a high-performance Quarkus microservice on NTT KUMO using Crossplane to manage Istio policies across remote Kubernetes clusters, enabling dynamic policy enforcement, reducing manual intervention, and improving scalability"
-          - "Reduced infrastructure costs by 30% by building an AI-powered Quarkus agent with the Vertex AI SDK to estimate costs and recommend optimized multi-cloud deployments for user-defined architectures on the NTT KUMO platform."
+          - "Built an AI-powered Quarkus agent using the Vertex AI SDK to analyze user-defined multi-cloud architectures and recommend optimized configurations, reducing estimated infrastructure costs by 30% versus the original designs on the NTT KUMO platform."
 
       - company: "Vision One"
         position: "Software Engineer"
@@ -52,7 +53,7 @@ cv:
         start_date: "2024-07"
         end_date: "2024-12"
         highlights:
-          - "Developed scheduling system in .NET/Blazor, improving task allocation efficiency by 80%."
+          - "Developed an on-call scheduling system using .NET and Blazor, improving operator-to-shift assignment efficiency by 80% compared with the previous manual process."
           - "Refactored legacy codebase, reducing unused code by 60% and improving maintainability."
           - "Introduced automated testing (xUnit), increasing test coverage to 80%."
 
@@ -81,22 +82,22 @@ cv:
 #          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
 
     skills:
-      - label: Programming Languages
-        details: Java, TypeScript, JavaScript, Python, C#, SQL, Bash, PowerShell, C++
+      - label: SRE & Reliability Engineering 
+        details: SLIs/SLOs, Error Budgets, Incident Management, Root Cause Analysis (RCA), On-Call Operations, Capacity Planning, Performance Engineering, Resilience & Disaster Recovery
 
-      - label: Frameworks
-        details: Spring Boot, Quarkus, .NET, FastAPI, Django, React, Angular, Blazor
+      - label: Cloud & Infrastructure
+        details: AWS, GCP, Azure, Linux, TCP/IP, HTTP/TLS, DNS, Kubernetes, Docker, Helm, Terraform, Pulumi, Crossplane, AWS CDK, Ansible
 
-      - label: Cloud & DevOps
-        details: AWS, Azure, GCP, Kubernetes, Docker, Helm, Terraform, Pulumi, AWS CDK, Ansible, Argo CD, Jenkins
+      - label: Observability
+        details: Prometheus, Grafana, Monitoring, Alerting, Logging, Distributed Tracing
 
-      - label: Databases
-        details: PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
+      - label: CI/CD & Automation
+        details: Jenkins, Argo CD, Git, Bash, Python, PowerShell, Safe Deployments, Change Management, Infrastructure Automation
+      
+      - label: Programming Languages, Frameworks & Databases
+        details: Java, TypeScript, JavaScript, C#, SQL, C++,  Quarkus, Spring Boot, .NET, FastAPI, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
-      - label: Tools & Technologies
-        details: Git, Linux, NGINX, Istio, REST APIs, OpenAPI, gRPC, Prometheus, Grafana, Testcontainers, JUnit, SonarQube
-
-      - label: Languages
+      - label: Languages 
         details: Italian (Native), English (Professional)
 
     certifications:
@@ -110,20 +111,20 @@ cv:
         degree: "M.Sc."
         area: "Artificial Intelligence and Machine Learning"
         gpa: "GPA: 4.0/4.0"
-        highlights:
-          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
+#        highlights:
+#          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
 
       - institution: "Università della Calabria"
         degree: "B.Sc."
         area: "Computer Engineering"
         gpa: "GPA: 4.0/4.0"
-        highlights:
-          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineer"
+#        highlights:
+#          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineering"
 
-      - institution: "LeadTheFuture"
-        area: "Mentee"
-        highlights:
-          - "Chosen as one of the few Italian students (acceptance rate <20%) for [LeadTheFuture](https://leadthefuture.tech/), a prestigious non-profit mentorship program for high-achieving STEM students."
+#      - institution: "LeadTheFuture"
+#        area: "Mentee"
+#        highlights:
+#          - "Chosen as one of the few Italian students (acceptance rate <20%) for [LeadTheFuture](https://leadthefuture.tech/), a prestigious non-profit mentorship program for high-achieving STEM students."
 
 #    extra:
 #      - bullet: "[Lead The Future Mentee](https://leadthefuture.tech/), a highly selective STEM mentorship program with an acceptance rate below 20%."
@@ -152,8 +153,8 @@ design:
     line_spacing: 0.58em
 
   header:
-    space_below_name: 0.5cm
-    space_below_connections: 0.5cm
+    space_below_name: 0.1cm
+    space_below_connections: 0.2cm
 
   section_titles:
     space_above: 0.3cm
