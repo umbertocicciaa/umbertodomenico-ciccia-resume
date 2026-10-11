@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 9,
+    day: 11,
   ),
 )
 
@@ -164,7 +164,7 @@
 
 #regular-entry(
   [
-    #strong[Caliò Informatica], Cosenza, Italy, Mar 2024 – July 2024
+    #strong[Caliò Informatica], Cosenza, Italy, Jan 2024 – July 2024
 
     #strong[Software Engineer]
 

@@ -58,7 +58,7 @@ cv:
       - company: "Caliò Informatica"
         position: "Software Engineer"
         location: "Cosenza, Italy"
-        start_date: "2024-03"
+        start_date: "2024-01"
         end_date: "2024-07"
         highlights:
           - "Developed an end-to-end visual workflow builder and backend execution engine for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create and execute AI workflows through a drag-and-drop interface."
