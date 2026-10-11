@@ -49,7 +49,7 @@
 
 
 
-## **Caliò Informatica**, Cosenza, Italy, Mar 2024 – July 2024
+## **Caliò Informatica**, Cosenza, Italy, Jan 2024 – July 2024
 
 **Software Engineer**
 
