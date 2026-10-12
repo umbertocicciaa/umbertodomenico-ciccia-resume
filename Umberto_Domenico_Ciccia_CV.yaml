@@ -32,7 +32,7 @@ cv:
           - "Unblocked a strategic customer launch under C-level executive escalation by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure."
           - "Delivered the Route 53 CIDR routing feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing."
           - "Maintained operational reliability of Route 53, AWS WAF, and AWS Shield in AWS European Sovereign Cloud through production incident response, on-call rotations, and root-cause-driven improvements, supporting services with demanding availability commitments."
-#          - "Resolved 150+ annual tickets, meeting a 48-hour SLA for non-SEV-2 issues through structured troubleshooting."
+          - "Authored incident postmortems and operational runbooks to document root causes, standardize troubleshooting procedures, and improve incident response and service reliability."
 #         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
 
       - company: "NTT Data"
@@ -100,26 +100,26 @@ cv:
       - label: Languages 
         details: Italian (Native), English (Professional)
 
-    certifications:
-      - bullet: AWS Certified Solutions Architect – Associate
-      - bullet: Certified Kubernetes Administrator (CKA)
-      - bullet: Google Associate Cloud Engineer
-      - bullet: HashiCorp Terraform Associate
+#    certifications:
+#      - bullet: AWS Certified Solutions Architect – Associate
+#      - bullet: Certified Kubernetes Administrator (CKA)
+#      - bullet: Google Associate Cloud Engineer
+#      - bullet: HashiCorp Terraform Associate
 
     education:
       - institution: "Università della Calabria"
         degree: "M.Sc."
         area: "Artificial Intelligence and Machine Learning"
         gpa: "GPA: 4.0/4.0"
-#        highlights:
-#          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
+        highlights:
+          - "Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning"
 
       - institution: "Università della Calabria"
         degree: "B.Sc."
         area: "Computer Engineering"
         gpa: "GPA: 4.0/4.0"
-#        highlights:
-#          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineering"
+        highlights:
+          - "Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineering"
 
 #      - institution: "LeadTheFuture"
 #        area: "Mentee"

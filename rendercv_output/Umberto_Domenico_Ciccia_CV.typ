@@ -117,6 +117,8 @@
 
     - Maintained operational reliability of Route 53, AWS WAF, and AWS Shield in AWS European Sovereign Cloud through production incident response, on-call rotations, and root-cause-driven improvements, supporting services with demanding availability commitments.
 
+    - Authored incident postmortems and operational runbooks to document root causes, standardize troubleshooting procedures, and improve incident response and service reliability.
+
   ],
   [
   ],
@@ -187,21 +189,13 @@
 
 #strong[Languages:] Italian (Native), English (Professional)
 
-== Certifications
-
-- AWS Certified Solutions Architect – Associate
-
-- Certified Kubernetes Administrator (CKA)
-
-- Google Associate Cloud Engineer
-
-- HashiCorp Terraform Associate
-
 == Education
 
 #education-entry(
   [
     #strong[Università della Calabria], M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0\/4.0
+
+    - Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
 
   ],
   [
@@ -211,6 +205,8 @@
 #education-entry(
   [
     #strong[Università della Calabria], B.Sc. in Computer Engineering -- GPA: 4.0\/4.0
+
+    - Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineering
 
   ],
   [
