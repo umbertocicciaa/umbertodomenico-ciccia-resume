@@ -81,14 +81,14 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 11,
+    day: 12,
   ),
 )
 
 
 = Umberto Domenico Ciccia
 
-  #headline([Site Reliability Engineer | Cloud Infrastructure | Distributed Systems & Automation])
+  #headline([Site Reliability Engineer, Software Oriented | Cloud Infrastructure | Distributed Systems & Automation])
 
 #connections(
   [#link("mailto:umbertociccia@icloud.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[umbertociccia\@icloud.com]]],
@@ -126,7 +126,7 @@
   [
     #strong[NTT Data], Cosenza, Italy, Jan 2025 – Oct 2025
 
-    #strong[Cloud Engineer]
+    #strong[Cloud Software Engineer]
 
     - Replaced manual Bash-script deployments with Jenkins CI\/CD pipelines for containerized applications on Amazon EKS, automating the release and deployment process for ItaliaOnline.
 

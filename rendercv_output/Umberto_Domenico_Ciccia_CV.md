@@ -25,7 +25,7 @@
 
 ## **NTT Data**, Cosenza, Italy, Jan 2025 – Oct 2025
 
-**Cloud Engineer**
+**Cloud Software Engineer**
 
 - Replaced manual Bash-script deployments with Jenkins CI/CD pipelines for containerized applications on Amazon EKS, automating the release and deployment process for ItaliaOnline.
 

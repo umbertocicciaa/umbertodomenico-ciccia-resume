@@ -3,7 +3,7 @@
 cv:
   name: Umberto Domenico Ciccia
   email: umbertociccia@icloud.com
-  headline: Site Reliability Engineer | Cloud Infrastructure | Distributed Systems & Automation
+  headline: Site Reliability Engineer, Software Oriented | Cloud Infrastructure | Distributed Systems & Automation
   phone:
 #    - "+393318865017"
     - "+353857267399"
@@ -36,7 +36,7 @@ cv:
 #         - "Supported infrastructure deployment for [AWS European Sovereign Cloud](https://aws.eu/), enabling compliant in-region operations."
 
       - company: "NTT Data"
-        position: "Cloud Engineer"
+        position: "Cloud Software Engineer"
         location: "Cosenza, Italy"
         start_date: "2025-01"
         end_date: "2025-10"
