@@ -11,17 +11,17 @@
 
 **System Development Engineer**
 
-- Redesigned DNS infrastructure following root-cause analysis of a recurring misconfiguration, eliminating the underlying issue and reducing SEV-2 alerts from 84 to zero over six months across all AWS partitions.
+- Diagnosed and corrected a DNS monitoring misconfiguration in a three-AZ setup, where same-AZ availability checks failed due to NAT hairpin behavior, generating false-positive SEV-2 pages; eliminated the recurring alert noise, reducing the total number of SEV-2 alerts from 84 to zero over six months.
 
-- Led the refactoring of 184 Route 53 infrastructure pipelines, increasing the percentage with artifacts less than 40 days old from 80% to 98% in eusc-de-east-1, improving infrastructure software and patch freshness.
+- Implemented DNSSEC support for Amazon Route 53 in AWS European Sovereign Cloud three weeks ahead of schedule, delivering API and infrastructure changes, DNS record change-propagation updates, regional allowlisting, monitoring, console integration, pipeline updates, and automated host patching to unblock a strategic customer migration.
 
-- Unblocked a strategic customer launch under C-level executive escalation by delivering DNSSEC support for Route 53 in AWS European Sovereign Cloud 3 weeks ahead of schedule, enabling migration without changes to the customer's existing infrastructure.
+- Delivered CIDR-based DNS routing four months ahead of schedule, implementing infrastructure, API, and console changes to enable customer-configurable IP-based DNS routing.
 
-- Delivered the Route 53 CIDR routing feature end-to-end in the European Sovereign Cloud 4 months ahead of schedule, implementing infrastructure, APIs, and console support for customer-configurable IP-based DNS routing.
+- Refactored 184 Route 53 infrastructure pipelines, increasing the proportion with artifacts less than 40 days old from 80% to 98% in eusc-de-east-1.
 
-- Maintained operational reliability of Route 53, AWS WAF, and AWS Shield in AWS European Sovereign Cloud through production incident response, on-call rotations, and root-cause-driven improvements, supporting services with demanding availability commitments.
+- Supported production reliability for Route 53, AWS WAF, and AWS Shield across AWS European Sovereign Cloud through on-call incident response, monitoring, root-cause analysis, and corrective actions.
 
-- Authored incident postmortems and operational runbooks to document root causes, standardize troubleshooting procedures, and improve incident response and service reliability.
+- Reviewed peer code changes and validated software and infrastructure changes through unit, integration, contract, end-to-end, and canary testing; documented incident findings and troubleshooting procedures in postmortems and operational runbooks.
 
 
 
@@ -29,9 +29,9 @@
 
 **Cloud Software Engineer**
 
-- Replaced manual Bash-script deployments with Jenkins CI/CD pipelines for containerized applications on Amazon EKS, automating the release and deployment process for ItaliaOnline.
+- Replaced fragile, manual Bash deployments with Jenkins CI/CD pipelines for infrastructure and backend applications, automating Terraform provisioning, container image builds and publication to Amazon ECR, and deployments to Amazon EKS; introduced manual approval gates for infrastructure changes and automated application rollback based on API error rates and p50, p90, and p99 latency.
 
-- Designed and deployed a multi-cloud infrastructure spanning AWS and on-premises using Terraform, Kubernetes, EKS, Aurora, DMS, S3, and ECR, reducing deployment failures by 70% and improving deployment consistency for ItaliaOnline
+- Configured AWS Database Migration Service (DMS) for both initial data loading and ongoing change replication during migration from on-premises MariaDB to Amazon Aurora, supporting the transition of application data to AWS.
 
 - Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia
 
@@ -43,11 +43,11 @@
 
 **Software Engineer**
 
-- Developed an on-call rotation scheduling system using .NET and Blazor, automating operator-to-shift assignments and improving allocation efficiency by 80% compared with the previous manual process.
+- Developed an organization-wide on-call scheduling system using .NET and Blazor, implementing rule-based shift assignment, availability validation, and automatic shift reassignment to resolve scheduling conflicts; integrated database and internal API interactions across backend, data, and frontend layers.
 
-- Refactored legacy code, removing 60% of unused code to simplify the codebase and improve maintainability.
+- Improved scheduling and management efficiency by 80% by automating scheduling workflows.
 
-- Introduced automated testing with xUnit, achieving 80% test coverage to strengthen regression detection and release confidence.
+- Removed 60% of unused code and introduced xUnit tests achieving 80% test coverage.
 
 
 
@@ -55,9 +55,9 @@
 
 **Software Engineer**
 
-- Developed workflow-building capabilities for AIDA, an OpenAI-powered automation platform, enabling non-technical users to create and configure AI workflows through a visual drag-and-drop interface.
+- Developed frontend and backend components for an AI-powered visual workflow builder, enabling users to create and manage workflows composed of connected steps integrating AI models and external APIs/services.
 
-- Optimized OpenAI API requests and prompts, reducing costs by 80% and improving response performance by 60%.
+- Optimized API interactions in an AI-powered visual workflow builder by eliminating redundant requests and combining calls, achieving an 80% reduction in API costs and a 60% performance improvement, validated through pre- and post-optimization profiling.
 
 
 
@@ -75,10 +75,6 @@
 **Languages:** Italian (Native), English (Professional)
 
 # Education
-## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0- Relevant coursework: Artificial Intelligence, Machine Learning, Computer Vision, Distributed System, Knowledge representation and reasoning, Statistical Learning
+## **Università della Calabria**, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0
 
-
-
-## **Università della Calabria**, B.Sc. in Computer Engineering -- GPA: 4.0/4.0- Relevant coursework: Operating Systems, Computer Networks, Database Systems, Object Oriented Programming, Software Engineering
-
-
+## **Università della Calabria**, B.Sc. in Computer Engineering -- GPA: 4.0/4.0
