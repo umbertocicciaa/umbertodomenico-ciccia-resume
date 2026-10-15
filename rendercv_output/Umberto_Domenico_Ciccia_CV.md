@@ -9,7 +9,7 @@
 # Experience
 ## **Amazon Web Services (AWS)**, Dublin, Ireland, Nov 2025 – present
 
-**System Development Engineer**
+**Systems Development Engineer**
 
 - Diagnosed and corrected a DNS monitoring misconfiguration in a three-AZ setup, where same-AZ availability checks failed due to NAT hairpin behavior, generating false-positive SEV-2 pages; eliminated the recurring alert noise, reducing the total number of SEV-2 alerts from 84 to zero over six months.
 
