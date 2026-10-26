@@ -7,10 +7,10 @@ cv:
   phone:
     - "+353857267399"
 
-  custom_connections:
-    - fontawesome_icon: "passport"
-      placeholder: "EU Citizen"
-      url: null
+#  custom_connections:
+#    - fontawesome_icon: "passport"
+#      placeholder: "EU Citizen"
+#      url: null
 
   social_networks:
     - network: GitHub
