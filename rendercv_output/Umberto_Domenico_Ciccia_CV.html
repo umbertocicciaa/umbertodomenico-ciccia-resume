@@ -47,77 +47,89 @@
         <li>LinkedIn: <a href="https://linkedin.com/in/umberto-domenico-ciccia">umberto-domenico-ciccia</a></li>
         </ul>
         <h1>Experience</h1>
-        <h2><strong>Amazon Web Services (AWS)</strong>, Dublin, Ireland, Nov 2025 – present</h2>
+        <h2><strong>Amazon Web Services (AWS)</strong>, Dublin, Ireland #h(1fr) Nov 2025 – Present</h2>
         <p><strong>Systems Development Engineer</strong></p>
         <ul>
         <li>
-        <p>Diagnosed and corrected a DNS monitoring misconfiguration in a three-AZ setup, where same-AZ availability checks failed due to NAT hairpin behavior, generating false-positive SEV-2 pages; eliminated the recurring alert noise, reducing the total number of SEV-2 alerts from 84 to zero over six months.</p>
+        <p>Eliminated 84 false-positive SEV-2 pages over 6 months by diagnosing a DNS monitoring misconfiguration where same-AZ availability checks failed due to NAT hairpin behavior in a 3-AZ setup</p>
         </li>
         <li>
-        <p>Implemented DNSSEC support for Amazon Route 53 in AWS European Sovereign Cloud three weeks ahead of schedule, delivering API and infrastructure changes, DNS record change-propagation updates, regional allowlisting, monitoring, console integration, pipeline updates, and automated host patching to unblock a strategic customer migration.</p>
+        <p>Built Amazon CloudFront for AWS European Sovereign Cloud end to end, including AWS CDK infrastructure as code, deployment pipelines, service APIs, CloudWatch monitoring and alarms, and on-call operations</p>
         </li>
         <li>
-        <p>Delivered CIDR-based DNS routing four months ahead of schedule, implementing infrastructure, API, and console changes to enable customer-configurable IP-based DNS routing.</p>
+        <p>Saved ~4 engineering weeks refactoring 184 Route 53 pipelines (AWS CDK, TypeScript, Ruby) by building a Python AI skill that generated the changes and raised 120 code reviews, raising fresh-artifact pipelines from 80% to 98%</p>
         </li>
         <li>
-        <p>Refactored 184 Route 53 infrastructure pipelines, increasing the proportion with artifacts less than 40 days old from 80% to 98% in eusc-de-east-1.</p>
+        <p>Delivered Route 53 DNSSEC in AWS European Sovereign Cloud 3 weeks early, unblocking a key customer migration, by building Java APIs, AWS CDK key rotation, CloudWatch alarms, canaries, and console support</p>
         </li>
         <li>
-        <p>Supported production reliability for Route 53, AWS WAF, and AWS Shield across AWS European Sovereign Cloud through on-call incident response, monitoring, root-cause analysis, and corrective actions.</p>
+        <p>Delivered CIDR-based DNS routing 3 months ahead of schedule, implementing infrastructure, API, and console changes that let customers route DNS queries by client IP range</p>
         </li>
         <li>
-        <p>Reviewed peer code changes and validated software and infrastructure changes through unit, integration, contract, end-to-end, and canary testing; documented incident findings and troubleshooting procedures in postmortems and operational runbooks.</p>
+        <p>Built a Python MCP server letting AI agents query and trigger customer-metadata redaction in logs and metrics through a partner team distributed service (Lambda, SQS with DLQs, SNS, Aurora, DynamoDB)</p>
+        </li>
+        <li>
+        <p>Owned on-call incident response for Route 53, AWS WAF, and AWS Shield, writing root-cause analyses, postmortems, and runbooks, and validated peer changes with unit, integration, contract, and canary tests</p>
+        </li>
+        <li>
+        <p>Ran sprint planning and agile delivery as the team Scrum Master for 2 quarters</p>
         </li>
         </ul>
-        <h2><strong>NTT Data</strong>, Cosenza, Italy, Jan 2025 – Oct 2025</h2>
-        <p><strong>Cloud Software Engineer</strong></p>
+        <h2><strong>NTT Data</strong>, Cosenza, Italy #h(1fr) Jan 2025 – Oct 2025</h2>
+        <p><strong>Cloud Software Engineer Consultant</strong></p>
         <ul>
         <li>
-        <p>Replaced fragile, manual Bash deployments with Jenkins CI/CD pipelines for infrastructure and backend applications, automating Terraform provisioning, container image builds and publication to Amazon ECR, and deployments to Amazon EKS; introduced manual approval gates for infrastructure changes and automated application rollback based on API error rates and p50, p90, and p99 latency.</p>
+        <p>Built the Amazon EKS cluster and replaced manual Bash deployments with Jenkins CI/CD pipelines automating Terraform provisioning, container image builds to Amazon ECR, and deployments to Amazon EKS</p>
         </li>
         <li>
-        <p>Configured AWS Database Migration Service (DMS) for both initial data loading and ongoing change replication during migration from on-premises MariaDB to Amazon Aurora, supporting the transition of application data to AWS.</p>
+        <p>Added manual approval gates for infrastructure changes and automatic rollback triggered by CloudWatch alarms on API error rate and p50, p90, and p99 latency</p>
         </li>
         <li>
-        <p>Built GCP data ingestion pipelines processing 10k+ daily records, improving data availability and release reliability using Dataflow, Compute Engine, and Cloud Storage for Coop Italia</p>
+        <p>Cut estimated infrastructure costs by 30% versus original designs by building a Quarkus AI agent (Vertex AI SDK) that analyzes multi-cloud architectures on NTT KUMO and recommends optimized configurations</p>
         </li>
         <li>
-        <p>Built an AI-powered Quarkus agent using the Vertex AI SDK to analyze user-defined multi-cloud architectures and recommend optimized configurations, reducing estimated infrastructure costs by 30% versus the original designs on the NTT KUMO platform.</p>
+        <p>Developed a Quarkus microservice on NTT KUMO using Crossplane to manage Istio policies across remote Kubernetes clusters, enabling dynamic policy enforcement and reducing manual intervention</p>
+        </li>
+        <li>
+        <p>Configured AWS Database Migration Service (DMS) full load and ongoing change replication to migrate application data from on-premises MariaDB to Amazon Aurora</p>
+        </li>
+        <li>
+        <p>Built GCP ingestion pipelines processing 10k+ daily records for Coop Italia with Dataflow, Compute Engine, and Cloud Storage, improving data availability and release reliability</p>
+        </li>
+        <li>
+        <p>Won an AWS Jam competition representing NTT Data</p>
         </li>
         </ul>
-        <h2><strong>Vision One</strong>, Recanati, Italy, July 2024 – Dec 2024</h2>
+        <h2><strong>Vision One</strong>, Recanati, Italy #h(1fr) July 2024 – Dec 2024</h2>
         <p><strong>Software Engineer</strong></p>
         <ul>
         <li>
-        <p>Developed an organization-wide on-call scheduling system using .NET and Blazor, implementing rule-based shift assignment, availability validation, and automatic shift reassignment to resolve scheduling conflicts; integrated database and internal API interactions across backend, data, and frontend layers.</p>
+        <p>Developed an organization-wide on-call scheduling system in .NET and Blazor with rule-based shift assignment, availability validation, and automatic reassignment to resolve conflicts</p>
         </li>
         <li>
-        <p>Improved scheduling and management efficiency by 80% by automating scheduling workflows.</p>
+        <p>Cut time spent on scheduling by 80% by automating scheduling workflows</p>
         </li>
         <li>
-        <p>Removed 60% of unused code and introduced xUnit tests achieving 80% test coverage.</p>
+        <p>Reduced lines of code by 60% through refactoring and added xUnit tests reaching 80% coverage</p>
         </li>
         </ul>
-        <h2><strong>Caliò Informatica</strong>, Cosenza, Italy, Jan 2024 – July 2024</h2>
+        <h2><strong>Caliò Informatica</strong>, Cosenza, Italy #h(1fr) Jan 2024 – July 2024</h2>
         <p><strong>Software Engineer</strong></p>
         <ul>
-        <li>
-        <p>Developed frontend and backend components for an AI-powered visual workflow builder, enabling users to create and manage workflows composed of connected steps integrating AI models and external APIs/services.</p>
-        </li>
-        <li>
-        <p>Optimized API interactions in an AI-powered visual workflow builder by eliminating redundant requests and combining calls, achieving an 80% reduction in API costs and a 60% performance improvement, validated through pre- and post-optimization profiling.</p>
-        </li>
+        <li>Cut API costs by 80% and improved performance by 60% in an AI-powered visual workflow builder by eliminating redundant requests and combining calls, validated with before and after profiling</li>
+        </ul>
+        <h1>Projects</h1>
+        <h2><strong>Unical&lt;3Telegram</strong>, unicallovetelegram.github.io/IndiceArgomentiOrale</h2>
+        <ul>
+        <li>Maintained an exam preparation and resource-sharing platform used by 2000+ Università della Calabria students across 8 bachelor and master engineering programs</li>
         </ul>
         <h1>Skills</h1>
-        <p><strong>SRE &amp; Reliability Engineering:</strong> SLIs/SLOs, Error Budgets, Incident Management, Root Cause Analysis (RCA), On-Call Operations, Capacity Planning, Performance Engineering, Resilience &amp; Disaster Recovery</p>
-        <p><strong>Cloud &amp; Infrastructure:</strong> AWS, GCP, Azure, Linux, TCP/IP, HTTP/TLS, DNS, Kubernetes, Docker, Helm, Terraform, Pulumi, Crossplane, AWS CDK, Ansible</p>
-        <p><strong>Observability:</strong> Prometheus, Grafana, Monitoring, Alerting, Logging, Distributed Tracing</p>
-        <p><strong>CI/CD &amp; Automation:</strong> Jenkins, Argo CD, Git, Bash, Python, PowerShell, Safe Deployments, Change Management, Infrastructure Automation</p>
-        <p><strong>Programming Languages, Frameworks &amp; Databases:</strong> Java, TypeScript, JavaScript, C#, SQL, C++,  Quarkus, Spring Boot, .NET, FastAPI, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB</p>
-        <p><strong>Languages:</strong> Italian (Native), English (Professional)</p>
+        <p><strong>Certifications:</strong> AWS Solutions Architect – Associate, CKA, GCP Associate Cloud Engineer, Terraform Associate</p>
+        <p><strong>Cloud and Infrastructure:</strong> AWS (CDK, CloudFormation, CloudFront, CloudWatch, Route 53, WAF, Shield, Lambda, SQS, SNS, Aurora, DynamoDB, DMS, EKS, ECR), GCP, Kubernetes, Docker, Terraform, Jenkins, Git, DNS</p>
+        <p><strong>Languages and Frameworks:</strong> Python, Java, TypeScript, C#, Ruby, SQL, Bash, Quarkus, .NET, Blazor</p>
         <h1>Education</h1>
-        <h2><strong>Università della Calabria</strong>, M.Sc. in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0</h2>
-        <h2><strong>Università della Calabria</strong>, B.Sc. in Computer Engineering -- GPA: 4.0/4.0</h2>
+        <h2><strong>Università della Calabria</strong>, Master of Science in Artificial Intelligence and Machine Learning -- GPA: 4.0/4.0 #h(1fr) 2025</h2>
+        <h2><strong>Università della Calabria</strong>, Bachelor of Science in Computer Engineering -- GPA: 4.0/4.0 #h(1fr) 2024</h2>
     </article>
 </body>
 
