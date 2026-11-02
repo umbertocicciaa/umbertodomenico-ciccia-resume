@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,                % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+
+\usepackage{XCharter}               % set font. comment this line out if you want to use the default LaTeX font Computer Modern
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[hidelinks]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=7pt} %%% Test various topsep values to fix vertical spacing errors
+
+% resume starts here
+\begin{document}
+
+% name
+\centerline{\Large Umberto Domenico Ciccia}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:umbertociccia@icloud.com}{umbertociccia@icloud.com} | \href{tel:+353857267399}{085 726 7399} |\href{https://github.com/umbertocicciaa}{github.com/umbertocicciaa} | \href{https://linkedin.com/in/umberto-domenico-ciccia}{linkedin.com/in/umberto-domenico-ciccia}}
+
+\vspace{-10pt}
+
+% experience section
+\section*{Experience}
+\textbf{Systems Development Engineer,} {Amazon Web Services (AWS)} -- Dublin, Ireland \hfill Nov 2025 -- Present \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Eliminated 84 false-positive SEV-2 pages over 6 months by tracing same-AZ DNS availability check failures to NAT hairpin behavior in a 3-AZ setup and fixing the monitoring configuration
+  \item Launched Amazon CloudFront for AWS European Sovereign Cloud general availability, building AWS CDK infrastructure as code, deployment pipelines, service APIs, CloudWatch alarms, and on-call operations
+  \item Saved $\sim$4 engineering weeks by building Python AI-agent automation that refactored 184 Route 53 pipelines (AWS CDK, TypeScript, Ruby) in 120 code reviews, increasing fresh-artifact pipelines from 80\% to 98\%
+  \item Delivered Route 53 DNSSEC in AWS European Sovereign Cloud 3 weeks early, unblocking a key customer migration, by building Java APIs, AWS CDK key rotation, CloudWatch alarms, canaries, and console support
+  \item Delivered CIDR-based DNS routing 3 months ahead of schedule, implementing infrastructure, API, and console changes that let customers route DNS queries by client IP range
+  \item Built a Python Model Context Protocol (MCP) server letting AI agents self-serve customer-metadata redaction in logs and metrics through a partner team distributed service (Lambda, SQS, SNS, Aurora, DynamoDB)
+  \item Resolved on-call incidents for Route 53, AWS WAF, and AWS Shield, writing root-cause analyses and runbooks to prevent recurrence, and validated peer changes with unit, integration, contract, and canary tests
+  \item Led sprint planning and agile delivery as team Scrum Master for 2 quarters
+\end{itemize}
+
+\textbf{Cloud Software Engineer Consultant,} {NTT Data} -- Cosenza, Italy \hfill Jan 2025 -- Oct 2025 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Built an Amazon EKS cluster and replaced manual Bash deployments with Jenkins pipelines automating Terraform, ECR image builds, approval gates, and rollback on CloudWatch error-rate and p99 latency alarms
+  \item Cut estimated infrastructure costs by 30\% versus original designs by building a Quarkus AI agent (Vertex AI SDK) that analyzes architectures on the NTT KUMO multi-cloud platform and recommends optimized configurations
+  \item Automated Istio policy management across remote Kubernetes clusters by building a Quarkus microservice on NTT KUMO with Crossplane, replacing manual per-cluster configuration
+  \item Migrated application data from on-premises MariaDB to Amazon Aurora by configuring AWS Database Migration Service (DMS) full load and ongoing change replication
+  \item Built GCP ingestion pipelines processing 10k+ daily records for Coop Italia with Dataflow, Compute Engine, and Cloud Storage, improving data availability and release reliability
+  \item Won an AWS Jam competition representing NTT Data
+\end{itemize}
+
+\textbf{Software Engineer,} {Vision One} -- Recanati, Italy \hfill July 2024 -- Dec 2024 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Cut scheduling time by 80\% by developing an organization-wide on-call scheduling system in C\#, .NET, and Blazor with rule-based shift assignment, availability validation, and conflict reassignment
+  \item Reduced lines of code by 60\% through refactoring and added xUnit tests reaching 80\% coverage
+\end{itemize}
+
+\textbf{Software Engineer,} {Caliò Informatica} -- Cosenza, Italy \hfill Jan 2024 -- July 2024 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Cut API costs by 80\% and improved performance by 60\% in an AI-powered visual workflow builder by eliminating redundant requests and combining calls, validated with before and after profiling
+\end{itemize}
+
+\vspace{-18.5pt}
+
+% skills section
+\section*{Skills}
+\textbf{Cloud and Infrastructure:} AWS (CDK, CloudFront, CloudWatch, Route 53, WAF, Shield, Lambda, SQS, SNS, Aurora, DynamoDB, DMS, EKS, ECR), GCP (Vertex AI, Dataflow), Kubernetes, Istio, Crossplane, Terraform, Jenkins, Git, DNS \\
+\textbf{Languages and Frameworks:} Python, Java, TypeScript, C\#, Ruby, Bash, Quarkus, .NET, Blazor, xUnit
+
+\vspace{-6.5pt}
+
+% education section
+\section*{Education}
+\textbf{Università della Calabria} -- Bachelor of Science in Computer Engineering, GPA: 4.0 \hfill 2024
+
+\end{document}
