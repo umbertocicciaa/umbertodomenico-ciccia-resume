@@ -19,7 +19,7 @@ cv:
       username: umberto-domenico-ciccia
 
   sections:
-    experience:
+    work_experience:
       - company: "Amazon Web Services (AWS)"
         position: "Systems Development Engineer"
         location: "Dublin, Ireland"

@@ -6,7 +6,7 @@
 - LinkedIn: [umberto-domenico-ciccia](https://linkedin.com/in/umberto-domenico-ciccia)
 
 
-# Experience
+# Work Experience
 ## **Systems Development Engineer**, **Amazon Web Services (AWS)** -- Dublin, Ireland #h(1fr) Nov 2025 – Present
 
 - Eliminated 84 false-positive SEV-2 pages over 6 months by tracing same-AZ DNS availability check failures to NAT hairpin behavior in a 3-AZ setup and fixing the monitoring configuration

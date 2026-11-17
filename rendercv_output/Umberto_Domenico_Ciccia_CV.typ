@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 2,
+    day: 17,
   ),
 )
 
@@ -97,7 +97,7 @@
 )
 
 
-== Experience
+== Work Experience
 
 #regular-entry(
   [
