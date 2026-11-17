@@ -20,7 +20,7 @@ cv:
       username: umberto-domenico-ciccia
 
   sections:
-    experience:
+    work_experience:
       - company: "Amazon Web Services (AWS)"
         position: "Systems Development Engineer"
         location: "Dublin, Ireland"
@@ -81,7 +81,7 @@ cv:
 #          - "Implemented secure networking (DNS, SSH, static IPs) and production-style workload deployment."
 
     skills:
-      - label: SRE & Reliability Engineering 
+      - label: SRE & Reliability Engineering
         details: SLIs/SLOs, Error Budgets, Incident Management, Root Cause Analysis (RCA), On-Call Operations, Capacity Planning, Performance Engineering, Resilience & Disaster Recovery
 
       - label: Cloud & Infrastructure
@@ -92,11 +92,11 @@ cv:
 
       - label: CI/CD & Automation
         details: Jenkins, Argo CD, Git, Bash, Python, PowerShell, Safe Deployments, Change Management, Infrastructure Automation
-      
+
       - label: Programming Languages, Frameworks & Databases
         details: Java, TypeScript, JavaScript, C#, SQL, C++,  Quarkus, Spring Boot, .NET, FastAPI, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB
 
-      - label: Languages 
+      - label: Languages
         details: Italian (Native), English (Professional)
 
 #    certifications:

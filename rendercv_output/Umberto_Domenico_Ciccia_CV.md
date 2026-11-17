@@ -6,7 +6,7 @@
 - LinkedIn: [umberto-domenico-ciccia](https://linkedin.com/in/umberto-domenico-ciccia)
 
 
-# Experience
+# Work Experience
 ## **Amazon Web Services (AWS)**, Dublin, Ireland, Nov 2025 – present
 
 **Systems Development Engineer**
@@ -27,7 +27,7 @@
 
 ## **NTT Data**, Cosenza, Italy, Jan 2025 – Oct 2025
 
-**Cloud Software Engineer**
+**Cloud Software Engineer Consultant**
 
 - Replaced fragile, manual Bash deployments with Jenkins CI/CD pipelines for infrastructure and backend applications, automating Terraform provisioning, container image builds and publication to Amazon ECR, and deployments to Amazon EKS; introduced manual approval gates for infrastructure changes and automated application rollback based on API error rates and p50, p90, and p99 latency.
 
