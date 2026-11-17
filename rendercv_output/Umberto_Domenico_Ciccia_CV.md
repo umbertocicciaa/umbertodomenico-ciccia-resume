@@ -6,7 +6,7 @@
 - LinkedIn: [umberto-domenico-ciccia](https://linkedin.com/in/umberto-domenico-ciccia)
 
 
-# Experience
+# Work Experience
 ## **Amazon Web Services (AWS)**, Dublin, Ireland, Nov 2025 – present
 
 **Systems Development Engineer**

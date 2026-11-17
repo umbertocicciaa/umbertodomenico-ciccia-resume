@@ -19,7 +19,7 @@ cv:
       username: umberto-domenico-ciccia
 
   sections:
-    experience:
+    Work Experience:
       - company: "Amazon Web Services (AWS)"
         position: "Systems Development Engineer"
         location: "Dublin, Ireland"
@@ -70,7 +70,7 @@ cv:
     skills:
       - label: Programming Languages
         details: Java, C++, Python, C#, TypeScript, JavaScript, Ruby, SQL, C, Bash, PowerShell
-      
+
       - label: Software Engineering
         details: Object-Oriented Programming, Git, Data Structures and Algorithms, Graph Algorithms, API Design, Software Design Patterns, Debugging, Code Refactoring, Spring Boot, Quarkus, .NET, FastAPI, Django, REST APIs, OpenAPI, gRPC, Microservices, React, Angular, Blazor, HTML, CSS, JUnit, xUnit, Testcontainers, SonarQube, Unit Testing, Integration Testing, PostgreSQL, SQL Server, MongoDB, Redis, DynamoDB, Apache Beam, Data Pipelines
 

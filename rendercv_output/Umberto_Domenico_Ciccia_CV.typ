@@ -6,7 +6,7 @@
   name: "Umberto Domenico Ciccia",
   title: "Umberto Domenico Ciccia - CV",
   footer: context { [#emph[Umberto Domenico Ciccia -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Oct 2026] ],
+  top-note: [ #emph[Last updated in Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 26,
+    month: 11,
+    day: 17,
   ),
 )
 
@@ -98,7 +98,7 @@
 )
 
 
-== Experience
+== Work Experience
 
 #regular-entry(
   [
